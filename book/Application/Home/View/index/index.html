@@ -37,12 +37,9 @@
 			}
 			li{
 				display: inline-block;
-				list-style-type: none;
-				float: right;
-				padding-right: 10px;
-			}
-			li:first-child{
-				display: inline-block;
+				width: 80px;
+				height: 30px;
+				border-left: 1px solid white;
 				list-style-type: none;
 				float: right;
 				padding-right: 0px;
@@ -51,26 +48,42 @@
 			.search{
 				height: 70px;
 			}
+			.searchBB{
+				float: left;
+			}
 		    .searchBox{
+		    	width: 300px;
 		    	height: 40px;
 		    	margin-top: 25px;
+		    	margin-left: 45px;
 		    	border: 3px solid #122B40;
 		    }
 		    .searchBtn{
+		    	width: 80px;
 		    	height: 40px;
 		    	margin-top: 25px;
 		    	background: #122B40;
 		    	color: white;
 		    	border: none;
 		    }
-
+		    .searchText{
+		    	height: 40px;
+		    	margin-top: 25px;
+		    }
+		    /*logo*/
+		   .logo{
+		   	width: 200px;
+		   	height: 60px;
+		   	margin-top: 15px;
+		   	float: left;
+		   }
 		</style>
 	</head>
 	<body class="content">
 		<!--标题栏-->
 		<div class="container-fluid float_nav">
 			<div class="container height_full">
-				<div class="col-xs-8 text-left"><a class="float_nav_font">心悦其中</a></div>
+				<li class="col-xs-8 text-left"><a class="float_nav_font">心悦其中</a></li>
 				<div class="col-xs-4">
 					<ul>
 						<li class="text-center"><a class="float_nav_font">注册</a></li>
@@ -83,11 +96,11 @@
 
        <!-- 查询框-->
        <div class="container search">
-       	<form>
-       		<div class="col-xs-3"><img class="full" src="../../../../Public/image/logo.dbed5.png"/></div>
-       		<input type="text" placeholder="搜索从这里开始..." class="col-xs-4 searchBox">
-       		<button type="submit" class="col-xs-2 searchBtn">查询</button>
-       		<div class="col-xs-3"></div>
+       	<form class="searchBB">
+       		<div class="logo"><img class="full" src="../../../../Public/image/logo.dbed5.png"/></div>
+       		<input type="text" placeholder="搜索从这里开始..." class="searchBox">
+       		<button type="submit" class="searchBtn">查询</button>
+       		<div class="searchText"></div>
        	</form>   
        </div>
        
