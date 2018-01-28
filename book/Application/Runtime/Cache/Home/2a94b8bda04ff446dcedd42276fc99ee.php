@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset="utf-8">
-		<title>Sharing </title>
+		<title></title>
 		<link rel="stylesheet" type="text/css" href="../../../../Public/public/bootstrap.min.css"/>
 		<style>
 			/*css配置*/
@@ -74,9 +74,22 @@
 		   .logo{
 		   	width: 200px;
 		   	height: 60px;
-		   	margin-top: 15px;
+		   	margin-top: 10px;
 		   	float: left;
 		   }
+		   /*分类*/
+		  .kindAll{
+		  	height: 50px;
+		  	background: black;
+		  	font: "微软雅黑";
+		  	color: white;
+		  	margin-top: 10px;
+		  }
+		  .float_kind_font{
+				list-style-type: none;
+				line-height: 50px;
+				color: white;
+			}
 		</style>
 	</head>
 	<body class="content">
@@ -103,6 +116,14 @@
        		<div class="searchText"></div>
        	</form>   
        </div>
-       
+       <div class="kindAll container-fluid">
+       	<div class="container">
+       		<ul>
+       			<li class="text-center"><a class="float_kind_font">首页</a></li>
+       			<li class="text-center"><a class="float_kind_font">玄幻</a></li>
+       			<li class="text-center"><a class="float_kind_font">修真</a></li>
+       		</ul>
+       	</div>
+       </div>
 	</body>
 </html>
