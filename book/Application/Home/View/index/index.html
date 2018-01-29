@@ -122,6 +122,7 @@
        			<li class="text-center"><a class="float_kind_font">首页</a></li>
        			<li class="text-center"><a class="float_kind_font">玄幻</a></li>
        			<li class="text-center"><a class="float_kind_font">修真</a></li>
+       			<li class="text-center"><a class="float_kind_font">修真</a></li>
        		</ul>
        	</div>
        </div>
