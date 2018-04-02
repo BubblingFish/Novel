@@ -1,0 +1,15 @@
+用户注册说明
+
+数据库项目：user_id 、user_name、user_ps、user_img
+
+检测项目：
+user_id  int(8)
+user_name vchar(20)
+user_ps vchar(20)
+user_img file
+
+对用户头像user_img的检测：
+判断大小
+判断类型 图片或文本 图片的类型
+检测文件是否通过form表单提交（防止黑客恶意注入）
+文件名的操作    
