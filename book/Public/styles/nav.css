@@ -1,0 +1,34 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.Nav{
+	height: 30px;
+	background: #444444;
+	font: "微软雅黑";
+	font-size: 14px;
+	color: white;
+}
+.nav_ul{
+	display: block;
+	list-style: none;
+	margin: 0;
+}
+.nav_li{
+	display: inline-block;
+	float: left;
+	line-height: 30px;
+}
+.nav_li a{
+	display:block; /* 将链接设为块级元素 */
+	width:50px; /* 设置宽度 */
+	height:30px; /* 设置高度 */
+	line-height:30px; /* 设置行高，将行高和高度设置同一个值，可以让单行文本垂直居中 */
+	text-align:center; /* 居中对齐文字 */
+	text-decoration:none; /* 去掉下划线 */
+	color: white;
+}
+.nav_li a:hover{
+	color: gainsboro;
+	cursor: pointer;
+}

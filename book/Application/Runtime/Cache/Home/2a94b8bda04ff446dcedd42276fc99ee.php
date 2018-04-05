@@ -2,31 +2,33 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>主页</title>
-		<link rel="stylesheet" type="text/css" href="../../../../Public/public/index.css"/>
-		<link rel="stylesheet" type="text/css" href="../../../../Public/public/bootstrap.min.css"/>
+		<title>书荒之家</title>
+		<link rel="stylesheet" type="text/css" href="../../Public/styles/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../../Public/styles/nav.css" />
+		<link rel="stylesheet" type="text/css" href="../../Public/styles/logo.css" />
 	</head>
 	<body>
-		<!--导航栏-->
-		<div class="container nav">
+		<div class="container-fluid Nav">
 			<div class="row">
-				<div class="col-md-4">
-					<img class="logo" src="../../../../Public/image/logo.png"/>
-				</div>
+				<ul class="nav_ul col-md-5">
+					<li class="nav_li"><a>首页</a></li>
+					<li class="nav_li"><a>玄幻</a></li>
+					<li class="nav_li"><a>玄幻</a></li>
+					<li class="nav_li"><a>玄幻</a></li>
+					<li class="nav_li"><a>玄幻</a></li>
+					<li class="nav_li"><a>玄幻</a></li>
+				</ul>
+				<div class="col-md-4"></div>
+				<ul class="nav_ul col-md-3">
+					<li class="nav_li"><a>登陆</a></li>
+					<li class="nav_li"><a>注册</a></li>
+				</ul>
 			</div>
 		</div>
-		<!--轮播图-->
-		<div class="container-fluid silder"></div>
-		<!--主体-->
-		<div class="container">
+		
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12 content"></div>
-			</div>
-		</div>
-		<!--页脚-->
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 footer"></div>
+				<div class="col-sm-3 Logo"></div>
 			</div>
 		</div>
 	</body>
