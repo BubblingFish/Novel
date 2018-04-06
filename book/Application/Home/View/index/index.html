@@ -3,9 +3,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>书荒之家</title>
-		<link rel="stylesheet" type="text/css" href="../../Public/styles/1.css" />
+		<link rel="stylesheet" type="text/css" href="../../Public/styles/daohang.css" />
+		<link rel="stylesheet" type="text/css" href="../../Public/styles/searchbox.css" />
+		<link rel="stylesheet" type="text/css" href="../../Public/styles/content.css" />
 	</head>
 	<body>
+		<!--导航栏-->
 		<div class="navBox">
 			<div class="nav">
 				<ul>
@@ -25,10 +28,26 @@
                <!--<![endif]-->
             </div>
        </div>
+       <!--搜索栏-->
+       <div class="searchBox">
+       	<div class="searchLogo"></div>
+       	<div class="searchBlank">
+       		<form class="searchForm" action="#" method="post">
+       			<input class="search" type="text" placeholder="请输入查询书籍"/>
+       			<input class="searchBtn" type="submit" value="搜索"/>
+       		</form>
+       	</div>	
+
+       </div>
+	
+	   <div class="contentBox">
+	   	<div class="content1"></div>
+	   </div>
 	</body>
 	<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script> 
 	<script type="text/javascript">
 		$(document).ready(function (){
+//			导航栏
 			$(".btn").on("click",function(){
 				$(".nav").find("ul").slideToggle(400);//点击滑动显示或隐藏
 				 });

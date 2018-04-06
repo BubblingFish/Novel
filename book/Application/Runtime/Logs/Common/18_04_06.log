@@ -4,3 +4,27 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
 ERR: 无法加载模块:Favicon
 
+[ 2018-04-06T19:56:00+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-04-06T20:29:07+08:00 ] ::1 /book/Public/styles/daohang.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+ERR: 无法加载模块:Book
+
+[ 2018-04-06T20:32:38+08:00 ] ::1 /Public/Public/styles/daohang.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-06T22:38:21+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:Favicon
+

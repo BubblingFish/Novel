@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+.searchBox{
+	margin: 0 auto;
+	border: 1px solid #333;
+}
+.searchLogo{
+	width: 150px;
+	height: 90px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	background: saddlebrown;
+}
+.searchBlank{
+	float: left;
+	height: 30px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.searchForm{
+	border: 1px solid red;
+}
+.search{
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+.searchBtn{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: red;
+}
+@media screen and (min-width: 1000px) {
+	.searchBox{
+		width: 1000px;
+		height: 100px;
+	}
+	.searchBlank{
+		width: 300px;
+		margin-left: 100px;
+	}
+	.searchForm{
+		width: 100%;
+		height: 100%;
+	}
+}
+@media screen and (min-width: 730px) and (max-width: 1000px){
+	.searchBox{
+		width:auto;
+		height: 100px;
+	}
+	.searchBlank{
+		width: 50%;
+		margin-left: 100px;
+	}
+	.searchForm{
+		width: 300px;
+		height: 30px;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 730px) {
+	.searchLogo{
+		display: none;
+	}
+	.searchBlank{
+		width: 100%;
+		min-width: 300px;
+	}
+	.searchForm{
+		width: 300px;
+		height: 30px;
+		margin: 0 auto;
+	}
+}
