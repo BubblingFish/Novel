@@ -41,7 +41,19 @@
        </div>
 	
 	   <div class="contentBox">
-	   	<div class="content1"></div>
+	   	<div class="Content">
+	   		<div class="books">
+	   			<div class="hotBooks"></div>
+	   			<div class="newBooks"></div>		
+	   		</div>
+	   		<div class="bookAbout">
+	   			<div class="hotUser">
+	   				<span><p>推荐大神榜</p><a>更多+</a></span>
+	   				<div class="aaa"></div>
+	   			</div>
+	   			<div class="bookList"></div>
+	   		</div>
+	   	</div>
 	   </div>
 	</body>
 	<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script> 
