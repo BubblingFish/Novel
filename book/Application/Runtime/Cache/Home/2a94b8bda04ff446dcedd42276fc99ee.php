@@ -43,18 +43,58 @@
 	   <div class="contentBox">
 	   	<div class="Content">
 	   		<div class="books">
-	   			<div class="hotBooks"></div>
-	   			<div class="newBooks"></div>		
+	   			<h3>最热资源</h3>
+	   			<div class="hotBooks">
+	   				<div class="htbook_item">
+	   					<img class="htbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<a href="#">地下城</a>
+	   					<p>一地鸡毛</p>
+	   				</div>   				
+	   			</div>
+	   			
+	   			<h3>最新资源</h3>
+	   			<div class="newBooks">
+	   				<div class="nwbook_item">
+	   					<img class="nwbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<span><a href="#">地下城</a><b>一地鸡毛</b><p>前段时间参加一个读书会，
+	   						讲的是是枝裕和的书和电影，在座的好几个人都是在校的学生，或者是刚刚毕业的学生。
+	   						每个人都抒发着自己对是枝裕和的见解，一时间，席间唾沫横飞，互相倾轧屡屡发生。
+	   						每个人都在努力地说...</p></span>
+	   				</div>
+	   			</div>		
 	   		</div>
 	   		<div class="bookAbout">
 	   			<div class="hotUser">
-	   				<span><p>推荐大神榜</p><a>更多+</a></span>
-	   				<div class="aaa"></div>
+	   				<span><p>置顶推荐榜</p><a>更多+</a></span>
+	   				<ul>
+	   					<li><span><p><1></1></p><a>武神</a></span></li>
+	   					<li><span><p><2></p><a>斗破苍穹</a></span></li>
+	   					<li><span><p><3></p><a>悟空传</a></span></li>
+	   					<li><span><p><4></p><a>雪中悍刀行</a></span></li>
+	   					<li><span><p><5></p><a>择天记</a></span></li>
+	   				</ul>
 	   			</div>
-	   			<div class="bookList"></div>
+	   			<div class="bookList">
+	   				<p>热搜标签</p>
+	   				<ul>
+	   					<li><span><a>热血</a></span></li>
+	   					<li><span><a>青春励志</a></span></li>
+	   					<li><span><a>热血</a></span></li>
+	   					<li><span><a>#</a></span></li>
+	   				</ul>
+	   			</div>
 	   		</div>
 	   	</div>
 	   </div>
+
+       <div class="foot">
+       	<p>2018-04-19&nbsp;&nbsp;&nbsp;zhangman.top</p>
+       	<ul>
+       		<li><a href="#">书荒之家</a></li>
+       		<li><a href="#">关于我们</a></li>
+       		<li><a href="#">免责声明</a></li>
+       	</ul>
+       </div>
 	</body>
 	<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script> 
 	<script type="text/javascript">

@@ -1,25 +1,33 @@
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
 .contentBox{
 	width: 100%;
 	height: auto;
 }
 .Content{
-	border: 1px solid red;
 	height: auto;
 }
 .books{
-	background: black;
-	height: 200px;
+	height: auto;
 	float: left;
 }
 .bookAbout{
-	background: darksalmon;
 	height: 500px;
 	float: left;
 }
+.bookAbout a:hover{
+	color: blue;
+}
 .hotUser{
 	width: 100%;
-	height: 200px;
-	background: darkseagreen;
+	height: auto;
+	box-sizing: border-box;
+	border: 2px solid silver;
+	border-radius: 8px;
 }
 .hotUser span{
 	display: block;
@@ -35,24 +43,197 @@
 .hotUser a{
 	display: inline-block;
 	float: left;
-	list-style: none;
 	color: blue;
 	width: 30%;
 	height: 100%;
 	text-align: right;
 }
-.aaa{
+.hotUser ul{
+	display: block;
 	width: 100%;
-	height: 170px;
-	background: saddlebrown;
+	height: auto;
+}
+.hotUser li{
+	display: inline-block;
+	list-style: none;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.hotUser li span{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.hotUser li p{
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	float: left;
+	padding-left: 5%;
+	text-align: left;
+	color: black;
+}
+.hotUser li a{
+	color: black;
+	display: inline-block;
+	width: 75%;
+	height: 100%;
+	float: left;
+	text-align: left;
+	cursor: pointer;
 }
 .bookList{
 	width: 100%;
 	height: 300px;
-	background: darkslateblue;
+	box-sizing: border-box;
+	border: 2px solid silver;
+	border-radius: 8px;
+	margin-top: 5px;
+}
+.bookList ul{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.bookList li{
+	display: inline-block;
+	width: auto;
+	height: 30px;
+	padding: 5px;
+	line-height: 30px;
+}
+.bookList span{
+	display: inline-block;
+	width: auto;
+	height: 30px;
+	border: 1px solid silver;
+	border-radius:8px;
+	cursor: pointer;
+}
+.bookList span a{
+	font-size: 14px;
+	color: black;
+	display: inline-block;
+	width: auto;
+	height: 100%;
+	padding: 0 5px;
+}
+
+.hotBooks{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.htbook_item{
+	float: left;
+	width: 120px;
+	height: 200px;
+	padding: 15px 20px;
+}
+.htbook_item a{
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	color: black;
+	line-height: 20px;
+	font-size: 16px;
+}
+.htbook_item p{
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+.htbook_img{
+	width: 100%;
+	height: 160px;
+}
+
+.newBook{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: saddlebrown;
+	border: 1px solid silver;
+}
+.nwbook_item{
+	width: auto;
+	min-width: 733px;
+	height: auto;
+	margin: 20px 25px;
+	float: left;
+}
+.nwbook_img{
+	width: 80px;
+	height: 120px;
+	float: left;
+}
+.nwbook_item span{
+	display: inline-block;
+	width: 600px;
+	height: 120px;
+	padding-left: 15px;
+}
+.nwbook_item span a{
+	display: inline-block;
+	width: 100%;
+	font-size: 20px;
+}
+.nwbook_item span b{
+	display: inline-block;
+	width: 100%;
+	font-size: 16px;
+}
+.nwbook_item span p{
+	font-size: 14px;
+}
+.foot{
+	height: auto;
+}
+.foot p{
+	display: inline-block;
+	width: 30%;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	color: silver;
+	font-size: 12px;
+	padding-left: 10%;
+}
+.foot ul{
+	display: inline-block;
+	width: 60%;
+	height: 30px;
+	float: left;
+}
+.foot li{
+	display: inline-block;
+	width: auto;
+	margin: 0 10px;
+	height: 30px;
+	float: left;
+		line-height: 30px;
+}
+.foot li:hover{
+	background: blue;
+}
+.foot li a{
+	text-decoration: none;
+	font-size: 14px;
+}
+.foot li a:hover{
+	color: white;
 }
 @media only screen and (min-width:1200px) {
 	.Content{
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.foot{
 		width: 1200px;
 		margin: 0 auto;
 	}
@@ -63,8 +244,12 @@
 		width: 300px;
 	}
 }
-@media only screen and (min-width:730px) and (max-width:1200px){
+@media only screen and (min-width:960px) and (max-width:1200px){
 	.Content{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.foot{
 		width: 100%;
 		margin: 0 auto;
 	}
@@ -75,11 +260,15 @@
 		width: 25%;
 	}
 }
-@media only screen and (max-width:730px){
+@media only screen and (max-width:960px){
 	.contentBox{
 		margin-top: 100px;
 	}
 	.Content{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.foot{
 		width: 100%;
 		margin: 0 auto;
 	}
