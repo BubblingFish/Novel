@@ -3,27 +3,38 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>注册页</title>
+		<style>
+			#subMit{
+				display: none;
+			}
+		</style>
 	</head>
-	<style>
-		.abc{
-			border: 1px solid red;
-			width: 100px;
-			height: 100px;
-		}
-		img{
-			width: 100%;
-			height: 100%;
-		}
-	</style>
 	<body>
-		<form action="http://localhost/Home/register/p" 
-			method="post" enctype="multipart/form-data">
-			us:<input type="text" name="userName"/>
-			ps:<input type="text" name="userPs"/>
-			<input type="submit" value="提交"/>
+		<form action="http://localhost/Home/register/res" method="post">
+			us:<input id="user_Name" type="text" name="userName"/><br />
+			ps:<input id="user_Ps" type="text" name="userPs"/>
+			<input  id="subMit" type="submit" value="提交"/>
 		</form>
-		<div class='abc'>
-			<img src="../../../../Public/image/logo.png"/>
-		</div>
 	</body>
+	<script src="../../Public/js/jquery1.9.1.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+//			var user={name:$('#user_Name').text(),ps:$('#user_Ps').text()};
+            var username=$('#user_Name').text();
+			$('#user_Name').blur(function() {
+				$.ajax({
+					type:"post",
+					url:"http://localhost/Home/register/res",
+					data:username,
+					success:function(response){
+						console.log(response);
+					},
+					error:function(){
+						console.log("222");
+					},
+					async:true
+				});
+			})
+		})
+	</script>
 </html>

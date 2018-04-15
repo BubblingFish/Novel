@@ -5,10 +5,13 @@
     margin:0px;
     border:0px;
 }
+html{
+	background: #f6f6f1;
+}
 .navBox {
     width:100%;
-    height:40px;
-    background:#333;
+    height:30px;
+    background:#545652;
 }
 .nav{
     margin:0 auto;
@@ -19,20 +22,20 @@
     width:auto;
 }
 .nav ul li {
-    height:40px;
+    height:30px;
     text-align:center;
 }
 .nav ul li a {
     display:block;
     font-size:16px;
     text-decoration:none;
-    line-height:39px;
-    color:rgba(103,204,247,1.00);
+    line-height:29px;
+    color:white;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
 .nav{
-    width:1000px;
-    height:40px;
+    width:1200px;
+    height:30px;
 }
 .nav ul li {
     float:left;
@@ -53,10 +56,10 @@
     display:none;
 }    
 }
-@media screen and (min-width: 730px) and (max-width: 1000px) {
+@media screen and (min-width: 730px) and (max-width: 1200px) {
 .nav {
     width:auto;
-    height:40px;
+    height:30px;
 }
 .nav ul li {
     float:left;
@@ -110,13 +113,13 @@ small {
     .nav .title {
         position:relative;
         width:100%;
-        height:40px;
+        height:30px;
         border-top:1px solid #444;
         background:#333;
         text-align:center;
         letter-spacing:1px;
         font-size:24px;
-        line-height:40px;
+        line-height:30px;
     }
     .nav .title a {
         color:#f60;
@@ -126,7 +129,12 @@ small {
         position:absolute;
         right:10px;
         top:0px;
-        width:34px;
+        width:30px;
+        height: 30px;
         cursor:pointer;
+    }
+    .nav img{
+    	width: 100%;
+    	height: 100%;
     }
     }

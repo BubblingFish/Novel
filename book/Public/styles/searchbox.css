@@ -9,7 +9,11 @@
 	float: left;
 	margin-top: 5px;
 	margin-left: 5px;
-	background: saddlebrown;
+}
+.searchLogo img{
+	width: 100%;
+	height: 50%;
+	padding-top: 22px;
 }
 .searchBlank{
 	float: left;
@@ -17,47 +21,112 @@
 	margin-top: 35px;
 	margin-bottom: 35px;
 }
-.searchForm{
-	border: 1px solid red;
+.Res_LogBox{
+	width: auto;
+	height: auto;
+	float: left;
 }
-.search{
-	width: 75%;
+.Res_Log img{
 	height: 100%;
 	float: left;
+}
+.Res_Log span{
+	display: inline-block;
+	height: 100%;
+	float: left;
+}
+.Res_Log p{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.Res_Log small{
+	display: none;
+}
+.searchForm{
+	box-shadow: 5px 5px 3px grey;
+}
+.search{
+	width: 368px;
+	height: 100%;
+	float: left;
+	border: 1px solid silver;
+	outline: none;
 }
 .searchBtn{
 	float: left;
-	width: 25%;
+	width: 30px;
 	height: 100%;
 	background: red;
 }
-@media screen and (min-width: 1000px) {
+.searchBtn img{
+	width: 30px;
+	height: 30px;
+}
+
+@media screen and (min-width: 1200px) {
 	.searchBox{
 		width: 1000px;
 		height: 100px;
 	}
 	.searchBlank{
-		width: 300px;
-		margin-left: 100px;
+		width: 400px;
+		margin-left: 80px;
 	}
 	.searchForm{
 		width: 100%;
 		height: 100%;
 	}
+	.Res_Log{
+		width: 150px;
+		height: 50px;
+		margin-top: 25px;
+		margin-left: 170px;
+	}
+	.Res_Log img{
+		width: 50px;
+	}
+	.Res_Log span{
+		width: 100px;
+	}
+	.Res_Log p{
+		padding-top: 10px;
+		padding-left: 10px;
+	    font-size:14px ;
+	}
 }
-@media screen and (min-width: 730px) and (max-width: 1000px){
+@media screen and (min-width: 730px) and (max-width: 1200px){
 	.searchBox{
 		width:auto;
 		height: 100px;
 	}
 	.searchBlank{
 		width: 50%;
-		margin-left: 100px;
+		min-width: 400px;
+		margin-left: 0;
 	}
 	.searchForm{
-		width: 300px;
+		width: 400px;
 		height: 30px;
 		margin: 0 auto;
+	}
+	.Res_Log{
+		width: 120px;
+		margin-left: 30px;
+		height: 40px;
+		margin-top: 30px;
+	}	
+	.Res_Log img{
+		width: 40px;
+	}
+	.Res_Log span{
+		width: 80px;
+	}
+	.Res_Log p{
+		padding-top: 5px;
+		padding-left: 10px;
+		font-size:12px ;
 	}
 }
 @media screen and (max-width: 730px) {
@@ -69,8 +138,41 @@
 		min-width: 300px;
 	}
 	.searchForm{
-		width: 300px;
+		width: 400px;
 		height: 30px;
 		margin: 0 auto;
+	}
+	.Res_LogBox{
+		width: 100%;
+		height: auto;
+		margin-bottom: 50px;
+	}
+	.Res_Log{
+		width: 50%;
+		height: 100px;
+		min-width: 280px;
+		margin: 0 auto;
+	}
+	.Res_Log img{
+		width: 100px;
+	}
+	.Res_Log span{
+		width: 180px;
+	}
+		.Res_Log p{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	}
+	.Res_Log small{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 0px;
+	padding-left: 10px;
 	}
 }

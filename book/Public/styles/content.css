@@ -6,6 +6,7 @@ li{
 }
 .contentBox{
 	width: 100%;
+	margin-top: 20px;
 	height: auto;
 }
 .Content{
@@ -25,14 +26,15 @@ li{
 .hotUser{
 	width: 100%;
 	height: auto;
-	box-sizing: border-box;
-	border: 2px solid silver;
-	border-radius: 8px;
 }
-.hotUser span{
+.hs{
 	display: block;
 	width: 100%;
 	height: 30px;
+	line-height: 30px;
+	font: "微软雅黑";
+	font-weight:bold;
+	border-bottom: 2px solid #545652;
 }
 .hotUser p{
 	display: inline-block;
@@ -57,18 +59,21 @@ li{
 	display: inline-block;
 	list-style: none;
 	width: 100%;
-	height: 30px;
+	height: 70px;
 	line-height: 30px;
+}
+.hotUser li:first-child{
+	margin-top: 20px;
 }
 .hotUser li span{
 	display: inline-block;
 	width: 100%;
-	height: 100%;
+	height: 70px;
 }
 .hotUser li p{
 	display: inline-block;
-	width: 20%;
-	height: 100%;
+	width: 15%;
+	height: 30px;
 	float: left;
 	padding-left: 5%;
 	text-align: left;
@@ -77,19 +82,33 @@ li{
 .hotUser li a{
 	color: black;
 	display: inline-block;
-	width: 75%;
-	height: 100%;
+	width: 80%;
+	height: 30px;
 	float: left;
 	text-align: left;
 	cursor: pointer;
 }
+.hotUser li span small{
+	display: inline-block;
+	width: 80%;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 20%;
+}
 .bookList{
 	width: 100%;
-	height: 300px;
-	box-sizing: border-box;
-	border: 2px solid silver;
-	border-radius: 8px;
-	margin-top: 5px;
+	height: auto;
+	margin-top: 15px;
+	
+}
+.bookList p{
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font: "微软雅黑";
+	font-weight:bold;
+	border-bottom: 2px solid #545652;
 }
 .bookList ul{
 	display: block;
@@ -198,6 +217,7 @@ li{
 	display: inline-block;
 	width: 30%;
 	height: 30px;
+	margin-top: 30px;
 	float: left;
 	line-height: 30px;
 	color: silver;
@@ -208,7 +228,9 @@ li{
 	display: inline-block;
 	width: 60%;
 	height: 30px;
+	margin-top: 30px;
 	float: left;
+	line-height: 30px;
 }
 .foot li{
 	display: inline-block;
@@ -216,7 +238,6 @@ li{
 	margin: 0 10px;
 	height: 30px;
 	float: left;
-		line-height: 30px;
 }
 .foot li:hover{
 	background: blue;
@@ -262,7 +283,9 @@ li{
 }
 @media only screen and (max-width:960px){
 	.contentBox{
-		margin-top: 100px;
+		margin-left: 5%;
+		width: 76%;
+		min-width: 730px;
 	}
 	.Content{
 		width: 100%;

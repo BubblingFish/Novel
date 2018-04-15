@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>书荒之家</title>
+		<link rel="icon" type="image/x-icon" href="../../../../Public/images/title.jpg"/>
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/daohang.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/searchbox.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/content.css" />
@@ -12,15 +13,13 @@
 		<div class="navBox">
 			<div class="nav">
 				<ul>
-					<li class="current"><a href="#" target="_blank">书荒之家</a></li>
+					<li class="current"><a href="#" target="_blank">首页</a></li>
                     <li><a href="#">玄幻<small>movie</small></a></li>
                     <li><a href="#">武侠<small>tv play</small></a></li>
                     <li><a href="#">科幻<small>comic</small></a></li>
                     <li><a href="#">言情<small>variety</small></a></li>
                     <li><a href="#">都市<small>documentary</small></a></li>
                     <li><a href="#">更多<small>+</small></a></li>
-                    <li><a href="#">登陆<small>+</small></a></li>
-                    <li><a href="#">注册<small>+</small></a></li>
                </ul>
                <!--match IE9,IE10 or not ie-->
                <!--[if (get IE 8) | ! (IE)]><!-->
@@ -30,16 +29,25 @@
        </div>
        <!--搜索栏-->
        <div class="searchBox">
-       	<div class="searchLogo"></div>
+       	<div class="searchLogo"><img src="../../Public/images/0.png" /></div>
        	<div class="searchBlank">
        		<form class="searchForm" action="#" method="post">
        			<input class="search" type="text" placeholder="请输入查询书籍"/>
-       			<input class="searchBtn" type="submit" value="搜索"/>
+       			<button class="searchBtn" type="submit"><img src="../../Public/images/search.png"/></button>
        		</form>
        	</div>	
-
+       	<div class="Res_LogBox">
+       		<div class="Res_Log">
+       			<img  src="../../Public/images/user.jpg"/>
+       			<span>
+       				<!--<p>账号：<a href="#">张大海</a></p>
+       				<small>积分：1024</small>-->
+       				<p><a href="http://localhost/Home/register/register">登陆</a>/<a href="http://localhost/Home/register/register">注册</a></p>
+       			</span>
+       		</div>
+       	</div>
        </div>
-	
+       <!--内容-->	
 	   <div class="contentBox">
 	   	<div class="Content">
 	   		<div class="books">
@@ -49,7 +57,53 @@
 	   					<img class="htbook_img" src="../../Public/images/ceshi.jpg"/>
 	   					<a href="#">地下城</a>
 	   					<p>一地鸡毛</p>
-	   				</div>   				
+	   				</div> 
+	   					   				<div class="htbook_item">
+	   					<img class="htbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<a href="#">地下城</a>
+	   					<p>一地鸡毛</p>
+	   				</div> 
+	   					   				<div class="htbook_item">
+	   					<img class="htbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<a href="#">地下城</a>
+	   					<p>一地鸡毛</p>
+	   				</div> 
+	   					   				<div class="htbook_item">
+	   					<img class="htbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<a href="#">地下城</a>
+	   					<p>一地鸡毛</p>
+	   				</div> 
+	   					   				<div class="htbook_item">
+	   					<img class="htbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<a href="#">地下城</a>
+	   					<p>一地鸡毛</p>
+	   				</div> 
+	   					   				<div class="htbook_item">
+	   					<img class="htbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<a href="#">地下城</a>
+	   					<p>一地鸡毛</p>
+	   				</div> 
+	   					   				<div class="htbook_item">
+	   					<img class="htbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<a href="#">地下城</a>
+	   					<p>一地鸡毛</p>
+	   				</div> 
+	   					   				<div class="htbook_item">
+	   					<img class="htbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<a href="#">地下城</a>
+	   					<p>一地鸡毛</p>
+	   				</div> 
+	   					   				<div class="htbook_item">
+	   					<img class="htbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<a href="#">地下城</a>
+	   					<p>一地鸡毛</p>
+	   				</div> 
+	   					   				<div class="htbook_item">
+	   					<img class="htbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<a href="#">地下城</a>
+	   					<p>一地鸡毛</p>
+	   				</div> 
+
 	   			</div>
 	   			
 	   			<h3>最新资源</h3>
@@ -61,17 +115,60 @@
 	   						每个人都抒发着自己对是枝裕和的见解，一时间，席间唾沫横飞，互相倾轧屡屡发生。
 	   						每个人都在努力地说...</p></span>
 	   				</div>
+	   					   				<div class="nwbook_item">
+	   					<img class="nwbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<span><a href="#">地下城</a><b>一地鸡毛</b><p>前段时间参加一个读书会，
+	   						讲的是是枝裕和的书和电影，在座的好几个人都是在校的学生，或者是刚刚毕业的学生。
+	   						每个人都抒发着自己对是枝裕和的见解，一时间，席间唾沫横飞，互相倾轧屡屡发生。
+	   						每个人都在努力地说...</p></span>
+	   				</div>
+	   					   				<div class="nwbook_item">
+	   					<img class="nwbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<span><a href="#">地下城</a><b>一地鸡毛</b><p>前段时间参加一个读书会，
+	   						讲的是是枝裕和的书和电影，在座的好几个人都是在校的学生，或者是刚刚毕业的学生。
+	   						每个人都抒发着自己对是枝裕和的见解，一时间，席间唾沫横飞，互相倾轧屡屡发生。
+	   						每个人都在努力地说...</p></span>
+	   				</div>
+	   					   				<div class="nwbook_item">
+	   					<img class="nwbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<span><a href="#">地下城</a><b>一地鸡毛</b><p>前段时间参加一个读书会，
+	   						讲的是是枝裕和的书和电影，在座的好几个人都是在校的学生，或者是刚刚毕业的学生。
+	   						每个人都抒发着自己对是枝裕和的见解，一时间，席间唾沫横飞，互相倾轧屡屡发生。
+	   						每个人都在努力地说...</p></span>
+	   				</div>
+	   					   				<div class="nwbook_item">
+	   					<img class="nwbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<span><a href="#">地下城</a><b>一地鸡毛</b><p>前段时间参加一个读书会，
+	   						讲的是是枝裕和的书和电影，在座的好几个人都是在校的学生，或者是刚刚毕业的学生。
+	   						每个人都抒发着自己对是枝裕和的见解，一时间，席间唾沫横飞，互相倾轧屡屡发生。
+	   						每个人都在努力地说...</p></span>
+	   				</div>
+	   					   				<div class="nwbook_item">
+	   					<img class="nwbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<span><a href="#">地下城</a><b>一地鸡毛</b><p>前段时间参加一个读书会，
+	   						讲的是是枝裕和的书和电影，在座的好几个人都是在校的学生，或者是刚刚毕业的学生。
+	   						每个人都抒发着自己对是枝裕和的见解，一时间，席间唾沫横飞，互相倾轧屡屡发生。
+	   						每个人都在努力地说...</p></span>
+	   				</div>
+	   					   				<div class="nwbook_item">
+	   					<img class="nwbook_img" src="../../Public/images/ceshi.jpg"/>
+	   					<span><a href="#">地下城</a><b>一地鸡毛</b><p>前段时间参加一个读书会，
+	   						讲的是是枝裕和的书和电影，在座的好几个人都是在校的学生，或者是刚刚毕业的学生。
+	   						每个人都抒发着自己对是枝裕和的见解，一时间，席间唾沫横飞，互相倾轧屡屡发生。
+	   						每个人都在努力地说...</p></span>
+	   				</div>
 	   			</div>		
 	   		</div>
+	   		<!--侧边栏-->
 	   		<div class="bookAbout">
 	   			<div class="hotUser">
-	   				<span><p>置顶推荐榜</p><a>更多+</a></span>
+	   				<span class="hs"><p>置顶推荐榜</p><a>更多+</a></span>
 	   				<ul>
-	   					<li><span><p><1></1></p><a>武神</a></span></li>
-	   					<li><span><p><2></p><a>斗破苍穹</a></span></li>
-	   					<li><span><p><3></p><a>悟空传</a></span></li>
-	   					<li><span><p><4></p><a>雪中悍刀行</a></span></li>
-	   					<li><span><p><5></p><a>择天记</a></span></li>
+	   					<li><span><p>1</p><a>武神</a><small>作者1</small></span></li>
+	   					<li><span><p>2</p><a>斗破苍穹</a><small>作者1</small></span></li>
+	   					<li><span><p>3</p><a>悟空传</a><small>作者1</small></span></li>
+	   					<li><span><p>4</p><a>雪中悍刀行</a><small>作者1</small></span></li>
+	   					<li><span><p>5</p><a>择天记</a><small>作者1</small></span></li>
 	   				</ul>
 	   			</div>
 	   			<div class="bookList">
