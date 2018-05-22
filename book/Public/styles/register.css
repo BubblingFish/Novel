@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f6f6f1;
+}
+.title{
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 30px;
+	color: #f58220;
+	display: inline-block;
+	width: 100%;
+	margin: 20px;
+}
+.line{
+	display: block;
+	margin-left: 20px;
+	width: 300px;
+	height:1px;
+	border:none;
+	border-top:1px solid #555555; 
+}
+.box{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+.formbox{
+	display: block;
+	width: 500px;
+	height: 300px;
+	margin: 0px auto;
+	box-shadow: 6px 4px 2px silver;
+	border-radius: 30px;
+	background-image: url(../images/doodles.png);
+}
+.formbox span{
+	display: block;
+	width: 300px;
+	height: 30px;
+	text-align: left;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 30px;
+	color: red;
+	margin: 0px auto;
+}
+.formbox h2{
+	display: block;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+#subMit{
+	/*display: none;*/
+	display: block;
+	width: 80px;
+	height: 35px;
+	margin: 10px auto;
+	border: 3px solid silver;
+	background: #ffce7b;
+	cursor: pointer;
+}
+#subMit:hover{
+	background: #1d953f;
+}
+#user_Name,#user_Ps{
+	display: block;
+	width: 300px;
+	height: 40px;
+	background: #f2eada;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	margin: 0px auto;
+}
+

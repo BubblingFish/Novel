@@ -1,0 +1,87 @@
+.perBox{
+	width: 420px;
+	height: 480px;
+	margin: 50px auto;
+	font: "微软雅黑";
+	font-size: 12px;
+	box-shadow: 3px 2px 1px silver;
+	border: 1px solid silver;
+}
+.perBox ul{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+.perBox ul li{
+	display: inline-block;
+	width: 350px;
+	height: 30px;
+	margin: 10px;
+	line-height: 30px;
+	padding-left: 50px;
+}
+.perBox ul li:last-child{
+	display: inline-block;
+	width: 350px;
+	height: auto;
+	margin: 10px;
+	line-height: 30px;
+}
+.perBox small{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	margin: 10px;
+}
+.perBox span{
+	display: inline-block;
+	width: 260px;
+	height: auto;
+	margin: 10px;
+	padding-left: 50px;
+	padding-bottom: 100px;
+}
+.perBox span a{
+	font: "微软雅黑";
+	font-size: 12px;
+	display: inline-block;
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+}
+.perBox p:first-child{
+	display: inline-block;
+	width: ;
+	height: 30px;
+	line-height: 30px;
+}
+.perImg{
+	width: 100%;
+	height: 160px;
+}
+.perImg img{
+	width: 120px;
+	height: 120px;
+	margin-left: 150px;
+	margin-top: 20px;
+	border-radius: 60px;
+	border:  1px solid silver;
+}
+.usBox{
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 32px;
+	text-align: center;
+}
+.us_login{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+}

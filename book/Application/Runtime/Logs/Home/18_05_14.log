@@ -1,0 +1,1623 @@
+[ 2018-05-14T20:33:27+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.047561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047668s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0779s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.347830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.347939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.045406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.045515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.076319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.076434s ]
+
+[ 2018-05-14T20:33:28+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0424s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2018-05-14T20:36:43+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2018-05-14T20:37:14+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2018-05-14T20:37:15+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0309s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001589s ]
+
+[ 2018-05-14T20:44:49+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2018-05-14T20:44:49+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2018-05-14T20:46:14+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002139s ]
+
+[ 2018-05-14T20:46:15+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2018-05-14T20:47:02+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2018-05-14T20:47:02+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2018-05-14T20:47:32+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2018-05-14T20:47:33+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001538s ]
+
+[ 2018-05-14T20:51:18+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+
+[ 2018-05-14T20:51:29+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001401s ]
+
+[ 2018-05-14T20:51:29+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2018-05-14T20:51:32+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2018-05-14T20:51:32+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002288s ]
+
+[ 2018-05-14T20:51:54+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2018-05-14T20:58:12+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+
+[ 2018-05-14T20:58:13+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002170s ]
+
+[ 2018-05-14T20:58:32+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+
+[ 2018-05-14T20:58:33+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+
+[ 2018-05-14T20:58:33+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+
+[ 2018-05-14T20:58:33+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+
+[ 2018-05-14T20:58:33+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+
+[ 2018-05-14T20:58:34+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+
+[ 2018-05-14T20:58:34+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+
+[ 2018-05-14T20:58:34+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+
+[ 2018-05-14T20:58:34+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+
+[ 2018-05-14T20:58:59+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+
+[ 2018-05-14T20:59:00+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+
+[ 2018-05-14T21:00:05+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+
+[ 2018-05-14T21:00:06+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+
+[ 2018-05-14T21:00:06+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+
+[ 2018-05-14T21:00:50+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.1282s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2018-05-14T21:01:23+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002273s ]
+
+[ 2018-05-14T21:02:22+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2018-05-14T21:02:39+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: i D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2018-05-14T21:04:28+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001928s ]
+
+[ 2018-05-14T21:04:48+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2018-05-14T21:04:49+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001589s ]
+
+[ 2018-05-14T21:14:46+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0524s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2018-05-14T21:15:12+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2018-05-14T21:15:51+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0673s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2018-05-14T21:15:51+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002466s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002221s ]
+
+[ 2018-05-14T21:16:08+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2018-05-14T21:16:08+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2018-05-14T21:21:03+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2018-05-14T21:21:03+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008004s ]
+
+[ 2018-05-14T21:28:18+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2018-05-14T21:28:18+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2018-05-14T21:31:05+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2018-05-14T21:31:05+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2018-05-14T21:41:04+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2018-05-14T21:41:46+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2018-05-14T21:41:46+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002365s ]
+
+[ 2018-05-14T21:42:10+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: newlist D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2018-05-14T21:42:10+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002020s ]
+
+[ 2018-05-14T22:24:28+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2018-05-14T22:25:32+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2018-05-14T22:25:32+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002491s ]
+
+[ 2018-05-14T22:27:27+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2018-05-14T22:28:57+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001436s ]
+
+[ 2018-05-14T22:29:06+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2018-05-14T22:29:25+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2018-05-14T22:35:27+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2018-05-14T22:35:58+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2018-05-14T22:36:47+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2018-05-14T22:37:07+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2018-05-14T22:37:38+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0787s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2018-05-14T22:39:11+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2018-05-14T22:39:11+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002186s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2018-05-14T22:40:45+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2018-05-14T22:42:39+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2018-05-14T22:42:39+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012475s ]
+
+[ 2018-05-14T22:44:45+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2018-05-14T22:44:46+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2018-05-14T23:25:39+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `book` ORDER BY book_score desc  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2018-05-14T23:25:40+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `book` ORDER BY update_time desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001792s ]
+

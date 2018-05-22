@@ -1,0 +1,92 @@
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.scanBox{
+	width: 100%;
+	margin-top: 20px;
+	height: auto;
+}
+.scanContent{
+	height: auto;
+}
+.scanBooks{
+	height: auto;
+	float: left;
+}
+.scanBooks ul{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+}
+.scanBooks ul li{
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+}
+.scanBooks ul li label{
+	font-family: "微软雅黑";
+	font-weight: 200;
+	color: gray;
+	font-size: 14px;
+}
+.scan_hotBooks{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.scan_htbook_item{
+	float: left;
+	width: 120px;
+	height: 200px;
+	padding: 15px 20px;
+}
+.scan_htbook_item a{
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	color: black;
+	line-height: 20px;
+	font-size: 16px;
+}
+.scan_htbook_item p{
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+.scan_htbook_img{
+	width: 100%;
+	height: 160px;
+}
+@media only screen and (min-width:1200px) {
+	.scanContent{
+		width: 1000px;
+		margin: 0 auto;
+	}
+}
+@media only screen and (min-width:960px) and (max-width:1200px){
+	.scanContent{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width:960px){
+	.scanBox{
+		margin-left: 5%;
+		width: 76%;
+		min-width: 730px;
+	}
+	.scanContent{
+		width: 100%;
+		margin: 0 auto;
+	}
+}

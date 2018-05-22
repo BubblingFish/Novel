@@ -1,0 +1,263 @@
+input{
+	outline: none;
+}
+.book_detail_box{
+	margin: 0 auto;
+	margin-top: 30px;
+	height: auto;
+}
+.book_detail{
+	height: auto;
+	float: left;
+}
+.book_detail_img{
+	float: left;
+}
+.book_detail_img img{
+	width: 100%;
+	height: 100%;
+}
+.book_detail span{
+	display: block;
+	float: left;
+	background: white;
+	box-shadow: 4px 3px 2px silver;
+	border: 1px solid silver;
+}
+.book_detail h4{
+	display: inline-block;
+	width: 350px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	border-bottom: 3px solid black;
+}
+.book_detail b{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font: "微软雅黑";
+	font-size: 18px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.book_detail a{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font: "微软雅黑";
+	font-size: 16px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.book_detail h6{
+	display: inline-block;
+	width: 100%;
+	padding-left: 10px;
+	margin-top: 5px;
+}
+.book_detail p{
+	display: inline-block;
+	width: 90%;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.user_speak{
+	width: 100%;
+	height: auto;
+}
+.other_book{
+	width: 100%;
+	height: auto;
+}
+#btn_zan{
+	width: 50px;
+	height: 25px;
+	margin:10px 10px;	
+	cursor: pointer;
+	float: left;
+}
+#skip{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: 5px;
+	cursor: pointer;
+	float: left;
+	text-decoration: none;
+	color: green;
+	font: "微软雅黑";
+	font-size: 14px;
+}
+.user_speak{
+	float: left;
+	height: auto;
+	padding:30px 100px;
+}
+.user_speak span{
+	display: inline-block;
+	width: 100%;
+	height: 80px;
+	border-bottom:1px solid silver ;
+}
+.user_speak span:first-child{
+	display: inline-block;
+	width: 100%;
+}
+.user_speak h4{
+	display: inline-block;
+	width: 350px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	border-bottom: 3px solid black;
+}
+.user_speak b{
+	font: "微软雅黑";
+	font-size: 12px;
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 50px;
+	float: left;
+}
+.pUser{
+	width: 50px;
+	height: 80px;
+	float: left;
+}
+.pUser img{
+	width: 50px;
+	height: 50px;
+}
+.pUser p{
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.pContent{
+	display: inline-block;
+	width: 700px;
+	height: 30px;
+	padding: 25px;
+	float: left;	
+	line-height: 30px;
+}
+.discuss_club{
+	height: 250px;
+	float: left;
+	margin-top: 100px;
+}
+.discuss_club form{
+	width: auto;
+	height: auto;
+}
+.dis_input1{
+	width: 400px;
+	height: 200px;
+	float: left;
+	border: 1px solid silver;
+	box-shadow: 3px 2px 1px black;
+}
+.dis_input2{
+	width: 80px;
+	height: 40px;
+	background: green;
+	color: white;
+	float: left;
+	margin-left:20px ;
+	margin-top: 164px;
+}
+@media only screen and (min-width: 1200px) {
+	.book_detail_box{
+		width: 1200px;
+	}
+	.book_detail{
+		width: 1005px;
+		padding-left: 100px;
+	}
+	.user_speak{
+		width: 1005px;
+		padding-left: 100px;
+	}
+	.discuss_club{
+		width: 1005px;
+		padding-left: 100px;
+    }
+	.book_detail_img{
+		width: 140px;
+		height: 200px;
+	}
+	.book_detail span{
+	    width: 860px;
+	    height: 200px;
+	}
+}
+@media only screen and (min-width: 430px) and (max-width:1200px) {
+	.book_detail_box{
+		width: 100%;
+	}
+	.book_detail{
+		width: 99%;
+		padding-left: 10px;
+	}
+	.user_speak{
+		width: 99%;
+		padding-left: 10px;
+	}
+	.discuss_club{
+		width: 99%;
+		padding-left: 10px;
+    }
+	.book_detail_img{
+		width: 100px;
+		height: 143px;
+	}
+	.book_detail span{
+	    width: 75%;
+	    min-width: 300px;
+	    height: 143px;
+	}	
+}
+@media only screen and (max-width: 430px) {
+	.book_detail_box{
+		width: 430px;
+	}
+	.book_detail{
+		width: 90%;
+		min-width: 400px;
+		padding-left: 15px;
+	}
+	.user_speak{
+		width: 90%;
+		min-width: 400px;
+		padding-left: 15px;
+	}
+	.discuss_club{
+		width: 90%;
+		min-width: 400px;
+		padding-left: 15px;
+    }
+	.book_detail_img{
+		width: 70px;
+		height: 100px;
+	}
+	.book_detail span{
+	   width: 76%;
+	   height: 100px;
+	}
+	.book_detail b{
+		padding-top: 5px;
+	}
+	.book_detail p{
+		width: 90%;
+	}
+}
