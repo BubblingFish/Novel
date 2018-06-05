@@ -1,0 +1,499 @@
+[ 2018-05-26T17:56:29+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.067974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.057167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.057280s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0854s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY book_score desc  [ RunTime:0.0466s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.393307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.393429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030751s ]
+
+[ 2018-05-26T17:56:30+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002170s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2018-05-26T17:56:32+08:00 ] ::1 /Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\GitRes\Novel\book\Application\Home\Controller\LoginController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2018-05-26T18:01:43+08:00 ] ::1 /Home/register/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '1122'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002139s ]
+
+[ 2018-05-26T18:02:02+08:00 ] ::1 /Home/login/userLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '1122' AND `user_ps` = '1122'  [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\LoginController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2018-05-26T18:02:06+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY book_score desc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001780s ]
+
+[ 2018-05-26T18:02:06+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002036s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003046s ]
+
+[ 2018-05-26T18:02:12+08:00 ] ::1 /Home/recommend/recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+NOTIC: [8] Use of undefined constant recommend - assumed 'recommend' D:\GitRes\Novel\book\Application\Home\Controller\RecommendController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\4a6defe151cbcb61b5e0b959173e8730.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2018-05-26T18:02:12+08:00 ] ::1 /Home/recommend/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `booktype` WHERE ( type_audi=1 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002145s ]
+
+[ 2018-05-26T19:33:31+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003089s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001530s ]
+
+[ 2018-05-26T19:33:33+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\c6b0943df4370cff7071359eb3a884c6.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.208549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.208659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2018-05-26T19:33:33+08:00 ] ::1 /Home/bookdetail/dis_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=25 ) ORDER BY dis_time desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT `user_name`,`user_img` FROM `user` WHERE ( user_id=5 )  [ RunTime:0.0005s ]
+SQL: SELECT `user_name`,`user_img` FROM `user` WHERE ( user_id=5 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001558s ]
+
+[ 2018-05-26T19:33:33+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=25 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001549s ]
+
+[ 2018-05-26T19:33:41+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002263s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2018-05-26T19:33:51+08:00 ] ::1 /Home/perfect/perfect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+NOTIC: [2048] Declaration of Home\Controller\PerfectController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 130 行.
+NOTIC: [8] Use of undefined constant perfect - assumed 'perfect' D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\369378b0a70fcc93f7d2ca01a94bb208.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2018-05-26T19:33:51+08:00 ] ::1 /Home/perfect/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+NOTIC: [2048] Declaration of Home\Controller\PerfectController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 130 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=25 )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002155s ]
+
+[ 2018-05-26T19:33:51+08:00 ] ::1 /Home/recommend/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `booktype` WHERE ( type_audi=1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002832s ]
+
+[ 2018-05-26T19:33:58+08:00 ] ::1 /Home/perfect/perfect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+NOTIC: [2048] Declaration of Home\Controller\PerfectController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 130 行.
+NOTIC: [8] Use of undefined constant perfect - assumed 'perfect' D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\369378b0a70fcc93f7d2ca01a94bb208.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2018-05-26T19:33:58+08:00 ] ::1 /Home/recommend/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `booktype` WHERE ( type_audi=1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2018-05-26T19:33:58+08:00 ] ::1 /Home/perfect/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+NOTIC: [2048] Declaration of Home\Controller\PerfectController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 130 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=25 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002769s ]
+
+[ 2018-05-26T19:47:03+08:00 ] ::1 /Home/typesupply/typesupply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+NOTIC: [8] Use of undefined constant typesupply - assumed 'typesupply' D:\GitRes\Novel\book\Application\Home\Controller\TypesupplyController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2018-05-26T19:50:36+08:00 ] ::1 /Home/typesupply/ts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0316s ]
+SQL: INSERT INTO `booktype` (`type`,`type_audi`) VALUES ('军事','1') [ RunTime:0.1121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001722s ]
+
+[ 2018-05-26T19:50:40+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.2894s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY book_score desc  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 70 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: vo_new D:\GitRes\Novel\book\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2018-05-26T19:50:40+08:00 ] ::1 /Home/index/newBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002760s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2018-05-26T19:51:04+08:00 ] ::1 /Home/recommend/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `booktype` WHERE ( type_audi=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002055s ]
+
+[ 2018-05-26T19:51:04+08:00 ] ::1 /Home/perfect/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+NOTIC: [2048] Declaration of Home\Controller\PerfectController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 130 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=25 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002039s ]
+
+[ 2018-05-26T19:52:19+08:00 ] ::1 /Home/perfect/perfect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+NOTIC: [2048] Declaration of Home\Controller\PerfectController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 130 行.
+NOTIC: [8] Use of undefined constant perfect - assumed 'perfect' D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Runtime\Cache\Home\369378b0a70fcc93f7d2ca01a94bb208.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2018-05-26T19:52:19+08:00 ] ::1 /Home/recommend/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0681s ]
+SQL: SELECT * FROM `booktype` WHERE ( type_audi=1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2018-05-26T19:52:19+08:00 ] ::1 /Home/perfect/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001834s ]
+NOTIC: [2048] Declaration of Home\Controller\PerfectController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 130 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PerfectController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=25 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001777s ]
+

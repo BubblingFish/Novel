@@ -16,7 +16,6 @@
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/daohang.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/searchbox.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/content.css" />
-		<script type="text/javascript" src="../../Public/js/angular.min.js" ></script>
 	</head>
 	<body>
 		<div class="navBox">
