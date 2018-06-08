@@ -42,7 +42,6 @@ class RegisterController extends Controller
             		if(in_array($type,$type_array)){
             			if(is_uploaded_file($file['tmp_name'])){
             				$imgResult=move_uploaded_file($file['tmp_name'],$dir."/".$name.".".$type);
-            				echo $imgResult;
             				if($imgResult){
             					$data['user_img']=$name.'.'.$type;
             				}
@@ -72,7 +71,7 @@ class RegisterController extends Controller
     	}
     	if($result){
     		header("Refresh:3;url=http://localhost/Home/login/login");
-    		echo("注册成功,即将跳转......");
+    		echo("注册成功，请登录");
     	}else{
     		header("Refresh:3;url=http://localhost/Home/register/resgister");
     		echo("注册失败，请重新注册");

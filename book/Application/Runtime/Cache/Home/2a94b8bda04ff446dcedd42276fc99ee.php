@@ -1,13 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); function show(){ $dir="../../userImg"; session_start(); if(isset($_SESSION['us'])){ if(isset($_SESSION['img'])&&$_SESSION['img']!=''){ echo "<img  src='".$dir."/".$_SESSION['img']."'/>
-        <span><p><a href='#'>".$_SESSION['us']."</a>
-        /<a href='http://localhost/Home/login/destroyUser'>注销</a></p></span>"; }else{ echo "<img  src='../../Public/images/user.jpg'/>
-        <span><p><a href='#'>".$_SESSION['us']."</a>
-        /<a href='http://localhost/Home/login/destroyUser'>注销</a>
-        </p></span>"; } } else{ echo "<img  src='../../Public/images/user.jpg'/>
-      <span><p>
-      <a href='http://localhost/Home/login/login'>登陆</a>/<a href='http://localhost/Home/register/register'>注册</a>
-      </p></span>"; } } ?>
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -21,7 +12,7 @@
 		<div class="navBox">
 			<div class="nav">
 				<ul>
-					<li class="current"><a href="#" target="_blank">首页</a></li>
+					<li class="current"><a href="http://localhost/Home/index/index" target="_blank">首页</a></li>
                     <li><a href="http://localhost/Home/searchresult/searchresult?cate=玄幻">玄幻<small>movie</small></a></li>
                     <li><a href="http://localhost/Home/searchresult/searchresult?cate=武侠">武侠<small>tv play</small></a></li>
                     <li><a href="http://localhost/Home/searchresult/searchresult?cate=科幻">科幻<small>comic</small></a></li>
@@ -43,8 +34,8 @@
        		</form>
        	</div>	
        	<div class="Res_LogBox">
-       		<div class="Res_Log">
-       			<?php show();?>
+       		<div class="Res_Log" id="userL">
+
        		</div>
        	</div>
        </div>
@@ -54,7 +45,7 @@
 	   		<div class="books">
 	   			<h3>最热资源</h3>
 	   			<div class="hotBooks">
-	   				<?php if(is_array($hotlist)): $i = 0; $__LIST__ = array_slice($hotlist,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_hot): $mod = ($i % 2 );++$i;?><div class="htbook_item">
+	   				<?php if(is_array($hotlist)): $i = 0; $__LIST__ = array_slice($hotlist,0,10,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_hot): $mod = ($i % 2 );++$i;?><div class="htbook_item">
 	   						<img class="htbook_img" src="../../bookImg/book<?php echo ($vo_hot["book_img"]); ?>"/>
 	   						<a href="http://localhost/Home/bookdetail/bookdetail?B_id=<?php echo ($vo_hot["book_id"]); ?>"><?php echo ($vo_hot["book_name"]); ?></a>
 	   						<a href="http://localhost/Home/searchresult/searchresult?writer=<?php echo ($vo_hot["book_writer"]); ?>"><?php echo ($vo_hot["book_writer"]); ?></a>
@@ -62,7 +53,7 @@
 	   				
 
 	   			</div>
-	   			
+	   			<div id="space"></div>
 	   			<h3>最新资源</h3>
 	   			<div class="newBooks" id="newBooks2">
 	   				
@@ -80,22 +71,15 @@
 	   		<!--侧边栏-->
 	   		<div class="bookAbout">
 	   			<div class="hotUser">
-	   				<span class="hs"><p>置顶推荐榜</p><a>更多+</a></span>
-	   				<ul>
-	   					<li><span><p>1</p><a>武神</a><small>作者1</small></span></li>
-	   					<li><span><p>2</p><a>斗破苍穹</a><small>作者1</small></span></li>
-	   					<li><span><p>3</p><a>悟空传</a><small>作者1</small></span></li>
-	   					<li><span><p>4</p><a>雪中悍刀行</a><small>作者1</small></span></li>
-	   					<li><span><p>5</p><a>择天记</a><small>作者1</small></span></li>
+	   				<span class="hs"><p>最佳用户榜</p></span>
+	   				<ul id='ul_rec'>
+                        <!--推荐用户-->
 	   				</ul>
 	   			</div>
 	   			<div class="bookList">
 	   				<p>热搜标签</p>
-	   				<ul>
-	   					<li><span><a>热血</a></span></li>
-	   					<li><span><a>青春励志</a></span></li>
-	   					<li><span><a>热血</a></span></li>
-	   					<li><span><a>#</a></span></li>
+	   				<ul id="ul_hot">
+	   					<!--热门标签-->
 	   				</ul>
 	   			</div>
 	   		</div>
@@ -112,41 +96,7 @@
        </div>
 	</body>
 	<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script> 
-	<script type="text/javascript">
-		$(document).ready(function (){
-//			导航栏按钮
-			$(".btn").on("click",function(){
-				$(".nav").find("ul").slideToggle(400);//点击滑动显示或隐藏
-			});
-//最新书籍
-		    $.ajax({ 
-		    	type:"post",
-		    	url: "http://localhost/Home/index/newBook",
-		    	success:function(response){
-		    		var str=response.split('&');
-		    		for (var i=0;i<str.length-1;i++) {
-		    			var t1=str[i].split('@');
-		    			showNew (t1[0],t1[1],t1[2],t1[3],t1[4]);
-		    		}
-		    	},
-		    	error:function(){
-		    		console.log("222");
-		    	},
-		    	async:true
-		    });
-			
-//			添加最新书籍函数
-            function showNew (book_id,name,writer,img,abstract) {
-                htmlobj=$.ajax({url:"../../bookAbstract/"+abstract,async:false});
-                console.log(htmlobj.responseText);
-                var str='';
-                if (htmlobj.responseText.length>100) {
-                	str=htmlobj.responseText.slice(0,101)+"<a id='copy' href='"+book_id+"'>...更多</a>";
-                }else{
-                	str=htmlobj.responseText;
-                }
-            	var div=$("<div class='nwbook_item'><img class='nwbook_img' src='../../bookImg/book"+img+"'/><span><a href='"+book_id+"'>"+name+"</a><b>"+writer+"</b><p>"+str+"</p></span></div>").appendTo($('#newBooks2'));
-            }
-		})
-</script>
+	<script type="text/javascript" src="../../Public/js/bookabout.js"></script>
+	<script type="text/javascript" src="../../Public/js/daohang.js"></script>
+	<script type="text/javascript" src="../../Public/js/bookshow.js"></script>
 </html>

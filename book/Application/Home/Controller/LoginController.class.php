@@ -22,7 +22,7 @@ class LoginController extends Controller
     		session_start();
     		$_SESSION['us']=$result[0]['user_name'];
     		$_SESSION['img']=$result[0]['user_img'];
-    		var_dump($_SESSION['img']);
+
     		header("Refresh:3;url=http://localhost/Home/index/index");
     		echo("登陆成功,即将跳转......");
     	}else{

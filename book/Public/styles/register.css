@@ -54,6 +54,10 @@ body{
 	height: 60px;
 	text-align: center;
 }
+#tx_img{
+	font: "微软雅黑";
+	color: #000000;
+}
 #subMit{
 	/*display: none;*/
 	display: block;

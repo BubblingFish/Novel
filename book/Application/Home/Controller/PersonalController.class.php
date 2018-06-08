@@ -12,8 +12,8 @@ class PersonalController extends Controller
     	session_start();
     	if(isset($_SESSION['us'])){
     		$User=M('User');
-    		$resultUser=$User->where("user_name=".$_SESSION['us'])->select();
-
+    		$resultUser=$User->where("user_name='".$_SESSION['us']."'")->select();
+    		
     		$data['user_name']=$resultUser[0]['user_name'];
     		$data['user_score']=$resultUser[0]['user_score'];
     		$data['user_img']=$resultUser[0]['user_img'];
@@ -26,8 +26,11 @@ class PersonalController extends Controller
     				$data['like_book'][$i]['book_id']=$resultBook[0]['book_id'];
     				$data['like_book'][$i]['book_name']=$resultBook[0]['book_name'];
     			}
+    			echo json_encode($data);
+    		}else{
+    			$data['like_book']='';
+    			echo json_encode($data);
     		}
-    		echo json_encode($data);
     		
     	}else{
     		echo 0;

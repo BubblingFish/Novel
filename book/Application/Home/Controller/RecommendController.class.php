@@ -28,6 +28,7 @@ class RecommendController extends Controller
     	        	header("Refresh:3;url=http://localhost/Home/recommend/recommend");
     	        	echo "请选择类别";
     	        }else{
+    	        	$name=date("Y").date("m").date("d").date("H").date("i").$s.rand(1,999);
     	        	if(isset($_FILES['bookImg'])&&$_FILES['bookImg']['tmp_name']!=''){
     	        		$userScore+=2;//有图片2分
     	        		$file=$_FILES['bookImg'];
@@ -38,7 +39,7 @@ class RecommendController extends Controller
             	            $dir="bookImg";
 //          	记录时间
             	            $s=date("s");
-            	            $name=date("Y").date("m").date("d").date("H").date("i").$s.rand(1,999);
+            	          
             	            if(in_array($type,$type_array)){
             	            	if(is_uploaded_file($file['tmp_name'])){
             	            		$imgResult=move_uploaded_file($file['tmp_name'],$dir."/book".$name.".".$type);
@@ -65,9 +66,8 @@ class RecommendController extends Controller
             	            exit("未知错误 ");
             	            break;
     		            }
-    		            var_dump($_FILES['bookImg']);
     	            }else{
-    	            	$book['book_img']='none.jpg';
+    	            	$book['book_img']='none.png';
     	            }
                     session_start();
     	            $book['book_recom']=$_SESSION['us'];
@@ -75,6 +75,7 @@ class RecommendController extends Controller
     	
     	            if($_POST['bookAbstract']!=''){
     	            	$userScore+=3;//有介绍3分
+    	            	
     	            	$mystr=fopen("bookAbstract/".$name.".txt","w") or die("Unable to open file!");
     		            fwrite($mystr,"  ".$_POST['bookAbstract']);
     		            fclose($mystr);
@@ -93,7 +94,6 @@ class RecommendController extends Controller
     	                $result=$Book->add($book);
     	                if($result){
     	                	$Rec=M('Recommend');
-    	                	var_dump($resultP[0]['book_id']);
     	                	$rec['book_name']=$_POST['bookName'];
     	                	$rec['user_name']=$_SESSION['us'];
     	                	$rec['rec_score']=$userScore;

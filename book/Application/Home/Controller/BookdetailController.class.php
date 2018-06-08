@@ -32,7 +32,7 @@ class BookdetailController extends Controller
     public function opo(){
     	session_start();
     	$User=M('User');
-    	$resultUser=$User->where("user_name=".$_SESSION['us'])->select();
+    	$resultUser=$User->where("user_name='".$_SESSION['us']."'")->select();
 
     	$data['book_id']=$_SESSION['book_id'];
     	$data['user_id']=$resultUser[0]['user_id'];

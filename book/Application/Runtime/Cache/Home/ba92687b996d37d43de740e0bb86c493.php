@@ -13,13 +13,13 @@
 		<div class="navBox">
 			<div class="nav">
 				<ul>
-					<li class="current"><a href="#" target="_blank">首页</a></li>
-                    <li><a href="#">玄幻<small>movie</small></a></li>
-                    <li><a href="#">武侠<small>tv play</small></a></li>
-                    <li><a href="#">科幻<small>comic</small></a></li>
-                    <li><a href="#">言情<small>variety</small></a></li>
-                    <li><a href="#">都市<small>documentary</small></a></li>
-                    <li><a href="#">更多<small>+</small></a></li>
+					<li class="current"><a href="http://localhost/Home/index/index" target="_blank">首页</a></li>
+                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=玄幻">玄幻<small>movie</small></a></li>
+                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=武侠">武侠<small>tv play</small></a></li>
+                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=科幻">科幻<small>comic</small></a></li>
+                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=言情">言情<small>variety</small></a></li>
+                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=都市">都市<small>documentary</small></a></li>
+                    <li><a href="http://localhost/Home/recommend/recommend">推荐<small>+</small></a></li>
                </ul>
                <!--match IE9,IE10 or not ie-->
                <!--[if (get IE 8) | ! (IE)]><!-->
@@ -65,22 +65,15 @@
 	   		<!--侧边栏-->
 	   		<div class="bookAbout">
 	   			<div class="hotUser">
-	   				<span class="hs"><p>置顶推荐榜</p><a>更多+</a></span>
-	   				<ul>
-	   					<li><span><p>1</p><a>武神</a><small>作者1</small></span></li>
-	   					<li><span><p>2</p><a>斗破苍穹</a><small>作者1</small></span></li>
-	   					<li><span><p>3</p><a>悟空传</a><small>作者1</small></span></li>
-	   					<li><span><p>4</p><a>雪中悍刀行</a><small>作者1</small></span></li>
-	   					<li><span><p>5</p><a>择天记</a><small>作者1</small></span></li>
+	   				<span class="hs"><p>置顶推荐榜</p></span>
+	   				<ul id='ul_rec'>
+                        <!--推荐用户-->
 	   				</ul>
 	   			</div>
 	   			<div class="bookList">
 	   				<p>热搜标签</p>
-	   				<ul>
-	   					<li><span><a>热血</a></span></li>
-	   					<li><span><a>青春励志</a></span></li>
-	   					<li><span><a>热血</a></span></li>
-	   					<li><span><a>#</a></span></li>
+	   				<ul id="ul_hot">
+	   					<!--热门标签-->
 	   				</ul>
 	   			</div>
 	   		</div>
@@ -99,13 +92,6 @@
        </div>
 	</body>
 	<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script> 
-	<script type="text/javascript">
-		$(document).ready(function (){
-//			导航栏
-			$(".btn").on("click",function(){
-				$(".nav").find("ul").slideToggle(400);//点击滑动显示或隐藏
-			});
-
-		})
-</script>
+	<script type="text/javascript" src="../../Public/js/daohang.js"></script>
+	<script type="text/javascript" src="../../Public/js/bookabout.js"></script>
 </html>

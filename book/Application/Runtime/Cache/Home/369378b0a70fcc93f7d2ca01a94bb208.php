@@ -23,13 +23,13 @@
 		<div class="navBox">
 			<div class="nav">
 				<ul>
-					<li class="current"><a href="#" target="_blank">首页</a></li>
-                    <li><a href="#">玄幻<small>movie</small></a></li>
-                    <li><a href="#">武侠<small>tv play</small></a></li>
-                    <li><a href="#">科幻<small>comic</small></a></li>
-                    <li><a href="#">言情<small>variety</small></a></li>
-                    <li><a href="#">都市<small>documentary</small></a></li>
-                    <li><a href="#">推荐<small>+</small></a></li>
+					<li class="current"><a href="http://localhost/Home/index/index" target="_blank">首页</a></li>
+                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=玄幻">玄幻<small>movie</small></a></li>
+                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=武侠">武侠<small>tv play</small></a></li>
+                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=科幻">科幻<small>comic</small></a></li>
+                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=言情">言情<small>variety</small></a></li>
+                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=都市">都市<small>documentary</small></a></li>
+                    <li><a href="http://localhost/Home/recommend/recommend">推荐<small>+</small></a></li>
                </ul>
                <!--match IE9,IE10 or not ie-->
                <!--[if (get IE 8) | ! (IE)]><!-->
@@ -91,56 +91,6 @@
        </div>
 	</body>
 	<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script> 
-	<script type="text/javascript">
-		$(document).ready(function (){
-//			导航栏
-			$(".btn").on("click",function(){
-				$(".nav").find("ul").slideToggle(400);//点击滑动显示或隐藏
-				 });
-//				 显示类别
-		    $.ajax({
-		    	type:"post",
-		    	url:"http://localhost/Home/recommend/type",
-		    	success:function(response){
-		    		var p=JSON.parse(response);
-		    		console.log(p);
-		    		var temp="";
-		    		for (var i=0;i<p.length;i++) {
-		    			temp+="<option value ='"+p[i]['type']+"'>"+p[i]['type']+"</option>";
-		    		}
-		    		$(temp).appendTo($('#sub_sel'));
-		    	},
-		    	error:function(){
-		    		console.log("222");
-		    	},
-		    	async:true
-		    });
-//		    填充内容 
-		    $.ajax({
-		    	type:"post",
-		    	url:"http://localhost/Home/perfect/show",
-		    	success:function(response){
-		    		if (response==0) {
-		    			alert("出错了！");
-		    			location.href="http://localhost/Home/index/index";
-		    		} else{
-		    			var res=JSON.parse(response);
-		    			htmlobj=$.ajax({url:"../../bookAbstract/"+res[0]['abstract'],async:false});
-		    			htmlobj2=$.ajax({url:"../../bookUrl/"+res[0]['book_url'],async:false});
-		    			console.log(res);
-		    			$("#bN").val(res[0]['book_name']);
-		    			$("#bW").val(res[0]['book_writer']);
-		    			$("#sub_sel").val(res[0]['book_cate']);
-		    			$("#bU").val(htmlobj2.responseText);
-		    			$("#bT").val(htmlobj.responseText);
-		    		}
-		    	},
-		    	error:function(){
-		    		console.log("222");
-		    	},
-		    	async:true
-		    });           
-		   
-		})
-</script>
+	<script type="text/javascript" src="../../Public/js/daohang.js"></script> 
+	<script type="text/javascript" src="../../Public/js/updatebook.js"></script> 
 </html>

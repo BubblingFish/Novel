@@ -29,9 +29,13 @@
 }
 .perBox small{
 	display: inline-block;
-	width: 70px;
+	width: auto;
 	height: 30px;
 	margin: 10px;
+	float: left;
+}
+.perBox small a{
+	color: #08575B;
 }
 .perBox span{
 	display: inline-block;
