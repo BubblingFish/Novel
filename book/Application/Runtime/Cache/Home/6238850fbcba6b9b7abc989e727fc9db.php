@@ -1,13 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); function show(){ $dir="../../userImg"; session_start(); if(isset($_SESSION['us'])){ if(isset($_SESSION['img'])&&$_SESSION['img']!=''){ echo "<img  src='".$dir."/".$_SESSION['img']."'/>
-        <span><p><a href='#'>".$_SESSION['us']."</a>
-        /<a href='http://localhost/Home/login/destroyUser'>注销</a></p></span>"; }else{ echo "<img  src='../../Public/images/user.jpg'/>
-        <span><p><a href='#'>".$_SESSION['us']."</a>
-        /<a href='http://localhost/Home/login/destroyUser'>注销</a>
-        </p></span>"; } } else{ echo "<img  src='../../Public/images/user.jpg'/>
-      <span><p>
-      <a href='http://localhost/Home/login/login'>登陆</a>/<a href='http://localhost/Home/register/register'>注册</a>
-      </p></span>"; } } ?>
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -35,14 +26,7 @@
         </div>
        <!--内容-->	
        <div class="perBox" id="pBox">
-       	    <!--<div class="perImg"><img src="../../../../bookImg/book20180518210621112.jpeg"/></div>
-       	    <div>
-       	    	<ul>
-       	    		<li><small>账号信息：</small>1122<a>修改账号密码</a></li>
-       	    		<li><small>个人积分：</small>222</li>
-       	    		<li><small>个人书单：</small><span><p>斗破苍穹</p><p>斗破苍穹</p><p>斗破苍穹</p><p>斗破苍穹</p></span><a>查看更多</a></li>
-       	    	</ul>
-       	    </div>-->
+
        </div>
 
        <div class="foot">

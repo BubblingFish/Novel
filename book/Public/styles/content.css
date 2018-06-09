@@ -7,7 +7,9 @@ li{
 .contentBox{
 	width: 100%;
 	margin-top: 20px;
+	float: left;
 	height: auto;
+	overflow:auto
 }
 .Content{
 	height: auto;

@@ -16,6 +16,15 @@ $(document).ready(function (){
 		    	},
 		    	async:true
 		    });
+		    
+		    $('.perBox').pagination({
+		    	callback: function (api) {
+		    		$('.now').text(api.getCurrent());
+		    	}
+		    }, function (api) {
+		    	$('.now').text(api.getCurrent());
+            }); 
+            
 //			添加最新书籍函数
             function showNew (book_id,name,writer,img,abstract) {
                 htmlobj=$.ajax({url:"../../bookAbstract/"+abstract,async:false});

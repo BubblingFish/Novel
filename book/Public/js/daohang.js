@@ -9,7 +9,11 @@ $(document).ready(function (){
 		success:function(response){
 			var dir="../../userImg";
 			var data=JSON.parse(response);
-			$("<img src='"+dir+"/"+data['img']+"'/><span><p><a href='http://localhost/Home/personal/show'>"+data['username']+"</a>/<a href='http://localhost/Home/login/destroyUser'>注销</a></p></span>").appendTo($('#userL'));
+			if (data['username']=='登陆') {
+				$("<img src='"+dir+"/"+data['img']+"'/><span><p><a href='http://localhost/Home/login/login'>"+data['username']+"</a>/<a href='http://localhost/Home/login/destroyUser'>注销</a></p></span>").appendTo($('#userL'));
+			} else{
+				$("<img src='"+dir+"/"+data['img']+"'/><span><p><a href='http://localhost/Home/personal/show'>"+data['username']+"</a>/<a href='http://localhost/Home/login/destroyUser'>注销</a></p></span>").appendTo($('#userL'));
+			}
 		},
 		error:function(){
 			console.log("222");

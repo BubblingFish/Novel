@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/daohang.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/searchbox.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/content.css" />
+		<link rel="stylesheet" type="text/css" href="../../Public/styles/pagination.css" />
 	</head>
 	<body>
 		<div class="navBox">
@@ -41,7 +42,8 @@
        </div>
        <!--内容-->	
 	   <div class="contentBox">
-	   	<div class="Content">
+
+       <div class="Content">
 	   		<div class="books">
 	   			<h3>最热资源</h3>
 	   			<div class="hotBooks">
@@ -57,17 +59,9 @@
 	   			<h3>最新资源</h3>
 	   			<div class="newBooks" id="newBooks2">
 	   				
-	   					<!--<div class="nwbook_item">
-	   						<img class="nwbook_img" src="../../bookImg/book<?php echo ($vo_new["book_img"]); ?>"/>
-	   						<span><a href="#"><?php echo ($vo_new["book_name"]); ?></a><b><?php echo ($vo_new["book_writer"]); ?></b>
-	   							<p></p>
-	   						</span>
-	   					</div>-->
-
-	   				
-
-	   			</div>		
+	   			</div>	
 	   		</div>
+	   	
 	   		<!--侧边栏-->
 	   		<div class="bookAbout">
 	   			<div class="hotUser">
@@ -99,4 +93,5 @@
 	<script type="text/javascript" src="../../Public/js/bookabout.js"></script>
 	<script type="text/javascript" src="../../Public/js/daohang.js"></script>
 	<script type="text/javascript" src="../../Public/js/bookshow.js"></script>
+	<script type="text/javascript" src="../../Public/js/jquery.pagination.js"></script>
 </html>

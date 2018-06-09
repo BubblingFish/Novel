@@ -31,19 +31,14 @@
        <div class="searchBox">
        	<div class="searchLogo"><img src="../../Public/images/0.png" /></div>
        	<div class="searchBlank">
-       		<form class="searchForm" action="#" method="post">
-       			<input class="search" type="text" placeholder="请输入查询书籍"/>
+       		<form class="searchForm" action="http://localhost/Home/searchresult/searchresult" method="post">
+       			<input class="search" type="text" name="serBook" placeholder="请输入查询书籍"/>
        			<button class="searchBtn" type="submit"><img src="../../Public/images/search.png"/></button>
        		</form>
-       	</div>	
+       	</div>
        	<div class="Res_LogBox">
-       		<div class="Res_Log">
-       			<img  src="../../Public/images/user.jpg"/>
-       			<span>
-       				<!--<p>账号：<a href="#">张大海</a></p>
-       				<small>积分：1024</small>-->
-       				<p><a href="http://localhost/Home/register/register">登陆</a>/<a href="http://localhost/Home/register/register">注册</a></p>
-       			</span>
+       		<div class="Res_Log" id="userL">
+
        		</div>
        	</div>
        </div>
