@@ -9,11 +9,5 @@ class SerbookController extends Controller
     {
     	$this->display(serbook);
     }
-    public function showAll(){
-    	$Book=M('Book');
-    	$result=$Book->where("audi=0")->select();
-    	if($result){
-    		echo json_encode($result);
-    	}    	
-    }
+
 }

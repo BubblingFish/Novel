@@ -1,29 +1,69 @@
 $(document).ready(function (){
+	
 //			导航栏按钮
-//最新书籍
-		    $.ajax({ 
-		    	type:"post",
-		    	url: "http://localhost/Home/index/newBook",
-		    	success:function(response){
-		    		var str=response.split('&');
-		    		for (var i=0;i<str.length-1;i++) {
-		    			var t1=str[i].split('@');
-		    			showNew (t1[0],t1[1],t1[2],t1[3],t1[4]);
-		    		}
-		    	},
-		    	error:function(){
-		    		console.log("222");
-		    	},
-		    	async:true
-		    });
+//		    		分页
+	$.ajax({//获取总行数
+		type:"post",
+		url: "http://localhost/Home/index/newbooknum",
+		success:function(response){
+			var count=5;
+			var pagecount=Math.ceil(response/count);
+//			获得初始页面
+			$.ajax({
+						type:"post",
+						url: "http://localhost/Home/index/newPrev",
+						data:{rows: count},
+						success:function(response){
+							var str=response.split('&');
+							$("#newBooks2").empty();
+							for (var i=0;i<str.length-1;i++) {
+								var t1=str[i].split('@');
+								showNew (t1[0],t1[1],t1[2],t1[3],t1[4]);
+							}
+					    },
+		    	        error:function(){
+		    	        	console.log("222");
+		    	        },
+		    	        async:true
+		     })		
+//		     分页
+			$('.M-box').pagination({
+				pageCount:pagecount,
+				jump:true,
+				coping:true,
+				homePage:'首',
+				endPage:'末',
+				prevContent:'<',
+				nextContent:'>',
+				current:1, 
+				callback:function(api){
+//					获取书籍资源
+					$.ajax({
+						type:"post",
+						url: "http://localhost/Home/index/newBook",
+						data:{rows: count,page: api.getCurrent()},
+						success:function(response){
+							var str=response.split('&');
+							$("#newBooks2").empty();
+							for (var i=0;i<str.length-1;i++) {
+								var t1=str[i].split('@');
+								showNew (t1[0],t1[1],t1[2],t1[3],t1[4]);
+							}
+					    },
+		    	        error:function(){
+		    	        	console.log("222");
+		    	        },
+		    	        async:true
+		           })				
+				}
+			});
+		},
+		error:function(){
+			console.log("222");
+		},
+		async:true
+	});
 		    
-		    $('.perBox').pagination({
-		    	callback: function (api) {
-		    		$('.now').text(api.getCurrent());
-		    	}
-		    }, function (api) {
-		    	$('.now').text(api.getCurrent());
-            }); 
             
 //			添加最新书籍函数
             function showNew (book_id,name,writer,img,abstract) {

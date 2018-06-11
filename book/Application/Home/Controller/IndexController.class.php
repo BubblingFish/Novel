@@ -32,15 +32,43 @@ class IndexController extends Controller
     	echo json_encode($data);
       }
     }
-    
-//  最新书籍
-    public function newBook(){
+//  最新书籍行数
+    public function newBookNum(){
+    	$Book = M('Book');
+        $new_list = $Book->where('audi=1')->order('update_time desc')->select();
+        echo count($new_list);
+    }
+//  最新书籍初始页面
+    public function newPrev(){
     	$Book = M('Book');
         $new_list = $Book->where('audi=1')->order('update_time desc')->select();
         $str='';
-        for($i=0;$i<count($new_list);$i++){
+
+        for($i=0;$i<$_POST['rows'];$i++){
         	$str.=$new_list[$i]['book_id']."@".$new_list[$i]['book_name']."@".$new_list[$i]['book_writer']."@".$new_list[$i]['book_img']
         	."@".$new_list[$i]['abstract']."&";
+        }
+        echo $str;
+    }    
+//  最新书籍
+    public function newBook(){
+    	$begin=($_POST['page']-1)*$_POST['rows'];
+    	$end=$_POST['rows']*$_POST['page'];
+
+    	$Book = M('Book');
+        $new_list = $Book->where('audi=1')->order('update_time desc')->select();
+        $str='';
+
+        if($end<count($new_list)){
+            for($i=$begin;$i<$end;$i++){
+        	$str.=$new_list[$i]['book_id']."@".$new_list[$i]['book_name']."@".$new_list[$i]['book_writer']."@".$new_list[$i]['book_img']
+        	."@".$new_list[$i]['abstract']."&";
+            }    	
+        }else{
+            for($i=$begin;$i<count($new_list);$i++){
+        	$str.=$new_list[$i]['book_id']."@".$new_list[$i]['book_name']."@".$new_list[$i]['book_writer']."@".$new_list[$i]['book_img']
+        	."@".$new_list[$i]['abstract']."&";
+            }   	
         }
         echo $str;
     }

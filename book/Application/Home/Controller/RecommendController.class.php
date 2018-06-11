@@ -11,12 +11,12 @@ class RecommendController extends Controller
     }
     public function rem(){
     	$userScore=0;
-    	if($_POST['bookName']==''&&$_POST['bookWriter']==''){
+    	if($_POST['bookName']==''||$_POST['bookWriter']==''){
     		header("Refresh:3;url=http://localhost/Home/recommend/recommend");
     		echo "请填写必要信息";
     	}else{
     		$Book=M('Book');
-    		$resultP=$Book->where("book_name='".$_POST['bookName']."'")->field('book_id')->select();
+    		$resultP=$Book->where("book_name='".$_POST['bookName']."' And book_writer='".$_POST['bookName']."'")->field('book_id')->select();
     		if($resultP){
     			header("Refresh:3;url=http://localhost/Home/perfect/perfect?B_id=".$resultP[0]['book_id']);
     			echo("您提交的书籍已存在，进入修改界面......");    			

@@ -7,6 +7,12 @@
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/daohang.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/searchbox.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/content.css" />
+		<link rel="stylesheet" type="text/css" href="../../Public/styles/pagination.css" />
+		<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script> 
+	    <script type="text/javascript" src="../../Public/js/daohang.js"></script>
+	    <script type="text/javascript" src="../../Public/js/bookabout.js"></script>
+	    <script type="text/javascript" src="../../Public/js/searchresult.js"></script>
+	    <script type="text/javascript" src="../../Public/js/jquery.pagination.js"></script>
 	</head>
 	<body>
 		<!--导航栏-->
@@ -47,16 +53,12 @@
 	   	<div class="Content">
 	   		<div class="books">
 	   			<h3>查询结果</h3>
-	   			<div class="hotBooks">
-	   				<?php if(is_array($serList)): $i = 0; $__LIST__ = $serList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_ser): $mod = ($i % 2 );++$i;?><div class="htbook_item">
-	   						<img class="htbook_img" src="../../bookImg/book<?php echo ($vo_ser["book_img"]); ?>"/>
-	   						<a href="http://localhost/Home/bookdetail/bookdetail?B_id=<?php echo ($vo_ser["book_id"]); ?>"><?php echo ($vo_ser["book_name"]); ?></a>
-	   						<a href="http://localhost/Home/searchresult/searchresult?writer=<?php echo ($vo_ser["book_writer"]); ?>"><?php echo ($vo_ser["book_writer"]); ?></a>
-	   					</div><?php endforeach; endif; else: echo "" ;endif; ?>
-
+	   			<div class="hotBooks" id="serBox">
+	   				<!--热门书籍-->
 	   			</div>
-	   			
+	   			<div class="M-box"></div>
 	   		</div>
+	   			
 	   		<!--侧边栏-->
 	   		<div class="bookAbout">
 	   			<div class="hotUser">
@@ -86,7 +88,4 @@
        	</ul>
        </div>
 	</body>
-	<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script> 
-	<script type="text/javascript" src="../../Public/js/daohang.js"></script>
-	<script type="text/javascript" src="../../Public/js/bookabout.js"></script>
 </html>

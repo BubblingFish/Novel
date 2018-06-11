@@ -7,7 +7,7 @@ class ScanController extends Controller
 {
     public function scan()
     {
-        $this->display(scan);
+        $this->display(111);
     }
 }
 ?>

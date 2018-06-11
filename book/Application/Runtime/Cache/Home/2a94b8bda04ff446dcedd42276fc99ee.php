@@ -8,6 +8,9 @@
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/searchbox.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/content.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/pagination.css" />
+		<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script>
+		<script type="text/javascript" src="../../Public/js/jquery.pagination.js"></script>
+		<script type="text/javascript" src="../../Public/js/bookshow.js"></script>
 	</head>
 	<body>
 		<div class="navBox">
@@ -60,6 +63,7 @@
 	   			<div class="newBooks" id="newBooks2">
 	   				
 	   			</div>	
+	   			<div class="M-box"></div>
 	   		</div>
 	   	
 	   		<!--侧边栏-->
@@ -89,9 +93,6 @@
        	</ul>
        </div>
 	</body>
-	<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script> 
 	<script type="text/javascript" src="../../Public/js/bookabout.js"></script>
 	<script type="text/javascript" src="../../Public/js/daohang.js"></script>
-	<script type="text/javascript" src="../../Public/js/bookshow.js"></script>
-	<script type="text/javascript" src="../../Public/js/jquery.pagination.js"></script>
 </html>

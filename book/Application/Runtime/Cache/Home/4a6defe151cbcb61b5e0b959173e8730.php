@@ -7,7 +7,6 @@
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/daohang.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/searchbox.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/recommend.css" />
-		<script type="text/javascript" src="../../Public/js/angular.min.js" ></script>
 	</head>
 	<body>
 		<!--导航栏-->
@@ -32,13 +31,13 @@
        <div class="searchBox">
        	<div class="searchLogo"><img src="../../Public/images/0.png" /></div>
        	<div class="searchBlank">
-       		<form class="searchForm" action="#" method="post">
-       			<input class="search" type="text" placeholder="请输入查询书籍"/>
+       		<form class="searchForm" action="http://localhost/Home/searchresult/searchresult" method="post">
+       			<input class="search" type="text" name="serBook" placeholder="请输入查询书籍"/>
        			<button class="searchBtn" type="submit"><img src="../../Public/images/search.png"/></button>
        		</form>
-       	</div>	
+       	</div>
        	<div class="Res_LogBox">
-       		<div class="Res_Log">
+       		<div class="Res_Log" id="userL">
 
        		</div>
        	</div>

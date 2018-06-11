@@ -7,6 +7,11 @@
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/daohang.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/searchbox.css" />
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/bookdetail.css" />
+		<link rel="stylesheet" type="text/css" href="../../Public/styles/pagination.css" />
+		<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script> 
+	    <script type="text/javascript" src="../../Public/js/daohang.js"></script> 
+		<script type="text/javascript" src="../../Public/js/jquery.pagination.js"></script>	    
+	    <script type="text/javascript" src="../../Public/js/bookdetail.js"></script> 
 	</head>
 	<body>
 		<!--导航栏-->
@@ -44,35 +49,18 @@
       
        </div>
        <!--内容-->	
-       <div class="book_detail_box">
+       <div class="book_detail_box" id='dis_club'>
        	<div class="book_detail" id="b_detail">
        		<!--书籍详情-->
        	</div>
         
-        
+        <h4 class='t4'>书籍评论</h4>
         <div class="user_speak" id="dis_user">
-       		<span><h4>书籍评论</h4></span>
-       		<!--<span>
-       			<div class="pUser">
-       				<img src="../../../../bookImg/booknone.jpg" />
-       				<p>1122</p>
-       			</div>
-       			<p class="pContent">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
-       			<b>2010-09-18 18:17:42</b>
-       		</span>-->
+       		<!--用户评论-->
        	</div>
-       	<div class="discuss_club">
-       		<form action="http://localhost/Home/bookdetail/discuss" method="post">
-       			<input class="dis_input1" type="text" name="discuss" placeholder="请输入评论（限30字以内）"/>
-       			
-       			<input class="dis_input2" type="submit" value="发表"/>
-       		</form>
-       	</div>
+       	<div class="M-box"></div>
        </div>
        
 	</body>
-	<script type="text/javascript" src="../../Public/js/jquery1.9.1.min.js"></script> 
-	<script type="text/javascript" src="../../Public/js/daohang.js"></script> 
-	<script type="text/javascript" src="../../Public/js/bookdetail.js"></script> 
 </script>
 </html>

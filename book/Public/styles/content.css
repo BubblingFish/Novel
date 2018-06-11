@@ -9,10 +9,11 @@ li{
 	margin-top: 20px;
 	float: left;
 	height: auto;
-	overflow:auto
+	overflow:auto;
 }
 .Content{
 	height: auto;
+	overflow:auto;
 }
 .books{
 	height: auto;

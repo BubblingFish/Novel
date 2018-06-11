@@ -1,0 +1,102 @@
+[ 2018-06-10T10:58:39+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-06-10T11:22:32+08:00 ] ::1 /bookImg/book%7B$vo_ser.book_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T11:22:33+08:00 ] ::1 /bookImg/book%7B$vo_ser.book_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T11:35:14+08:00 ] ::1 /bookImg/book%7B$vo_ser.book_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T11:35:47+08:00 ] ::1 /bookImg/book%7B$vo_ser.book_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T11:55:12+08:00 ] ::1 /bookImg/book%7B$vo_ser.book_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T11:55:16+08:00 ] ::1 /bookImg/book%7B$vo_ser.book_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T11:55:19+08:00 ] ::1 /bookImg/book%7B$vo_ser.book_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T11:55:21+08:00 ] ::1 /bookImg/book%7B$vo_ser.book_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T11:55:43+08:00 ] ::1 /bookImg/book%7B$vo_ser.book_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T12:17:21+08:00 ] ::1 /Public/js/angular.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-10T17:21:31+08:00 ] ::1 /Public/js/angular.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-10T17:45:01+08:00 ] ::1 /bookImg/booknull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T17:45:19+08:00 ] ::1 /bookImg/booknull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T17:46:32+08:00 ] ::1 /bookImg/booknull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T17:46:46+08:00 ] ::1 /bookImg/booknull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:BookImg
+
+[ 2018-06-10T17:49:57+08:00 ] ::1 /bookImg/booknull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:BookImg
+

@@ -1,88 +1,41 @@
-@charset "UTF-8";
-.m-style {
-    position: relative;
-    text-align: center;
-    zoom: 1;
+.M-box{
+	width: 800px;
+	height: 80px;
+	margin-left: 100px;
+	float: left;
 }
-
-.m-style:before,
-.m-style:after {
-    content: "";
-    display: table;
+.M-box a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	margin-top: 20px;
+	text-align: center;
+	border: 1px solid silver;
+	text-decoration: none;
+	line-height: 30px;
 }
-
-.m-style:after {
-    clear: both;
-    overflow: hidden;
+.M-box a:last-child{
+	width: 60px;
 }
-
-.m-style span {
-    float: left;
-    margin: 0 5px;
-    width: 38px;
-    height: 38px;
-    line-height: 38px;
-    color: #bdbdbd;
-    font-size: 14px;
+.M-box a:hover{
+	background: silver;
+	color: white;
 }
-
-.m-style .active {
-    float: left;
-    margin: 0 5px;
-    width: 38px;
-    height: 38px;
-    line-height: 38px;
-    background: #e91e63;
-    color: #fff;
-    font-size: 14px;
-    border: 1px solid #e91e63;
+.M-box span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	text-align: center;
+	line-height: 30px;
 }
-
-.m-style a {
-    float: left;
-    margin: 0 5px;
-    width: 38px;
-    height: 38px;
-    line-height: 38px;
-    background: #fff;
-    border: 1px solid #ebebeb;
-    color: #bdbdbd;
-    font-size: 14px;
-}
-
-.m-style a:hover {
-    color: #fff;
-    background: #e91e63;
-}
-
-.m-style .next,
-.m-style .prev {
-    font-family: "Simsun";
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.now,
-.count {
-    padding: 0 5px;
-    color: #f00;
-}
-
-.eg img {
-    max-width: 800px;
-    min-height: 500px;
-}
-
-input {
-    float: left;
-    margin: 0 5px;
-    width: 38px;
-    height: 38px;
-    line-height: 38px;
-    text-align: center;
-    background: #fff;
-    border: 1px solid #ebebeb;
-    outline: none;
-    color: #bdbdbd;
-    font-size: 14px;
+.jump-ipt{
+	display: inline-block;
+	width: 50px;
+	height: 25px;
+	margin: auto 5px;
+	border: 1px solid silver;
+	text-decoration: none;
+	line-height: 30px;
 }
