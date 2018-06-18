@@ -17,11 +17,11 @@
 			<div class="nav">
 				<ul>
 					<li class="current"><a href="http://localhost/Home/index/index" target="_blank">首页</a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=玄幻">玄幻<small>movie</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=武侠">武侠<small>tv play</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=科幻">科幻<small>comic</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=言情">言情<small>variety</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=都市">都市<small>documentary</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=玄幻">玄幻<small>Fantasy</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=武侠">武侠<small>Martial arts</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=科幻">科幻<small>Future science</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=言情">言情<small>Romantic</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=都市">都市<small>City</small></a></li>
                     <li><a href="http://localhost/Home/recommend/recommend">推荐<small>+</small></a></li>
               </ul>
                <h1 class="title"><a href="#">书荒之家</a><span class="btn"><img src="../../Public/images/btn.png" width="34" height="34" alt=""/></span></h1>
@@ -50,7 +50,7 @@
 	   		<div class="books">
 	   			<h3>最热资源</h3>
 	   			<div class="hotBooks">
-	   				<?php if(is_array($hotlist)): $i = 0; $__LIST__ = array_slice($hotlist,0,10,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_hot): $mod = ($i % 2 );++$i;?><div class="htbook_item">
+	   				<?php if(is_array($hotlist)): $i = 0; $__LIST__ = array_slice($hotlist,0,10,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_hot): $mod = ($i % 2 );++$i;?><div class="htbook_item" onclick="window.location.href= 'http://localhost/Home/bookdetail/bookdetail?B_id=<?php echo ($vo_hot["book_id"]); ?>';'return false'">
 	   						<img class="htbook_img" src="../../bookImg/book<?php echo ($vo_hot["book_img"]); ?>"/>
 	   						<a href="http://localhost/Home/bookdetail/bookdetail?B_id=<?php echo ($vo_hot["book_id"]); ?>"><?php echo ($vo_hot["book_name"]); ?></a>
 	   						<a href="http://localhost/Home/searchresult/searchresult?writer=<?php echo ($vo_hot["book_writer"]); ?>"><?php echo ($vo_hot["book_writer"]); ?></a>

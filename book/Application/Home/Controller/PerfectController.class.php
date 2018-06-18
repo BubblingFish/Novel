@@ -78,9 +78,7 @@ class PerfectController extends Controller
             	            exit("未知错误 ");
             	            break;
     		            }
-    		            var_dump($_FILES['bookImg']);
     	            }else{
-    	            	var_dump($_SESSION['book_id']);
     	            	$book['pbook_img']=$resultP[0]['book_img'];
     	            	$name=date("Y").date("m").date("d").date("H").date("i").$s.rand(1,999);
     	            }
@@ -103,16 +101,10 @@ class PerfectController extends Controller
     		
     		            $book['paudi']=0;
     		            $book['pbook_score']=$resultP[0]['book_score'];
-    		            $Perfect=M('Perfect');
+    		            $book['user_score']=10;
+    		            $Perfect=M('Perfect');          
     	                $result=$Perfect->add($book);
     	                if($result){
-    	                	$userScore+=10;
-    	                	$Rec=M('Recommend');
-    	                	$rec['book_name']=$_POST['bookName'];
-    	                	$rec['user_name']=$_SESSION['us'];
-    	                	$rec['rec_score']=$userScore;
-    	                	$rec['rec_id']=0;
-    	                	$resultRec=$Rec->add($rec);
     	                	header("Refresh:3;url=http://localhost/Home/index/index");
     		                echo("提交成功,感谢您的支持......");
     	                }else{

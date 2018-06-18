@@ -14,7 +14,7 @@ class TypesupplyController extends Controller
     	if(isset($_POST['typeName'])&&$_POST['typeName']!=''){
     		$Booktype = M("Booktype"); // 实例化User对象
     		$data['type']=$_POST['typeName'];
-    		$data['type_audi']=1;
+    		$data['type_audi']=0;
     		$result=$Booktype->add($data);	
     		if($result){
     			var_dump("您的要求会尽快获得处理，期待我们共同成长");

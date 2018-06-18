@@ -20,11 +20,11 @@
 			<div class="nav">
 				<ul>
 					<li class="current"><a href="http://localhost/Home/index/index" target="_blank">首页</a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=玄幻">玄幻<small>movie</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=武侠">武侠<small>tv play</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=科幻">科幻<small>comic</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=言情">言情<small>variety</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=都市">都市<small>documentary</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=玄幻">玄幻<small>Fantasy</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=武侠">武侠<small>Martial arts</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=科幻">科幻<small>Future science</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=言情">言情<small>Romantic</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=都市">都市<small>City</small></a></li>
                     <li><a href="http://localhost/Home/recommend/recommend">推荐<small>+</small></a></li>
                </ul>
                <!--match IE9,IE10 or not ie-->

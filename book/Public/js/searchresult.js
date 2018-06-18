@@ -1,9 +1,10 @@
 $(document).ready(function (){
-	var count=2;//设置结果页每页显示条数
+	var count=1;//设置结果页每页显示条数
 	$.ajax({
 		type:"post",
 		url: "http://localhost/Home/searchresult/getNum",
 		success:function(response){
+			if(response!=0){
 			if(response>count){
 				var pagecount=Math.ceil(response/count);
 				$.ajax({
@@ -71,10 +72,11 @@ $(document).ready(function (){
 					async:true
 				});
 			}
+		}
 		},
 		error:function(){
 			console.log("222");
 		},
 		async:true
-	});
+	});	
 })

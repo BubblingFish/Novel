@@ -16,7 +16,7 @@ class RecommendController extends Controller
     		echo "请填写必要信息";
     	}else{
     		$Book=M('Book');
-    		$resultP=$Book->where("book_name='".$_POST['bookName']."' And book_writer='".$_POST['bookName']."'")->field('book_id')->select();
+    		$resultP=$Book->where("book_name='".$_POST['bookName']."' And book_writer='".$_POST['bookWriter']."' And audi=1")->field('book_id')->select();
     		if($resultP){
     			header("Refresh:3;url=http://localhost/Home/perfect/perfect?B_id=".$resultP[0]['book_id']);
     			echo("您提交的书籍已存在，进入修改界面......");    			
@@ -90,14 +90,16 @@ class RecommendController extends Controller
     		            fclose($mystr2);
     		            $book['book_url']=$name;
     		
-    		            $book['audi']=1;
+    		            $book['audi']=0;
     	                $result=$Book->add($book);
     	                if($result){
     	                	$Rec=M('Recommend');
     	                	$rec['book_name']=$_POST['bookName'];
     	                	$rec['user_name']=$_SESSION['us'];
+    	                	$rec['book_writer']=$_POST['bookWriter'];
     	                	$rec['rec_score']=$userScore;
     	                	$rec['rec_id']=0;
+    	                	$rec['book_id']=$result;
     	                	$resultRec=$Rec->add($rec);
     	                	header("Refresh:3;url=http://localhost/Home/index/index");
     		                echo("提交成功,感谢您的支持......");

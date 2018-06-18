@@ -25,12 +25,12 @@ class IndexController extends Controller
     			$data['username']=$_SESSION['us'];
     			$data['img']="user.jpg";
     			echo json_encode($data);
-            }
-      }else{
-      	$data['username']="登陆";
-    	$data['img']="user.jpg";
-    	echo json_encode($data);
-      }
+           }
+        }else{
+       	    $data['username']="登陆";
+    	    $data['img']="user.jpg";
+    	    echo json_encode($data);
+        }
     }
 //  最新书籍行数
     public function newBookNum(){

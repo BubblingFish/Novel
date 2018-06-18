@@ -9,14 +9,6 @@ class SearchresultController extends Controller
     {
     	$Book=M('Book');
     	session_start;
-    	if(isset($_GET['cate'])){
-    		$_SESSION['cate']=$_GET['cate'];
-    		$result=$Book->where("book_cate='".$_GET['cate']."'")->select();
-    	} 
-    	if(isset($_POST['writer'])){
-    		$_SESSION['writer']=$_POST['writer'];
-    		$result=$Book->where("book_writer='".$_POST['writer']."'")->select(); 		
-    	}
     	if(isset($_POST['serBook'])){
     		$_SESSION['serBook']=$_POST['serBook'];
     		$result=$Book->where("book_name='".$_POST['serBook']."'")->select(); 		
@@ -31,25 +23,9 @@ class SearchresultController extends Controller
     {
     	$Book=M('Book');
     	session_start;
-    	if(isset($_SESSION['cate'])){
-    		$result=$Book->where("book_cate='".$_SESSION['cate']."'")->select();
-    	} 
-//  	if(isset($_SESSION['writer'])){
-//  		$result=$Book->where("book_writer='".$_SESSION['writer']."'")->select(); 		
-//  	}
-//  	if(isset($_SESSION['serBook'])){
-//  		$result=$Book->where("book_name='".$_SESSION['serBook']."'")->select(); 		
-//  	}   
-//  	清除session
-//  	if(isset($_SESSION['cate'])){
-//  		unset($_SESSION['cate']);
-//  	} 
-//  	if(isset($_SESSION['writer'])){
-//  		unset($_SESSION['writer']); 		
-//  	}
-//  	if(isset($_SESSION['serBook'])){
-//  		unset($_SESSION['serBook']); 	
-//  	}     	 
+    	if(isset($_SESSION['serBook'])){
+    		$result=$Book->where("book_name='".$_SESSION['serBook']."'")->select(); 		
+    	}     	 
 
     	if($result){
     		if(isset($_POST['rows'])){//依据是否存在$_POST['rows']判断是否需要分页，存在则表示条目超过单页显示条数限制，需分页
@@ -96,8 +72,11 @@ class SearchresultController extends Controller
     }    
     public function getNum(){
     	session_start;
-    	if(isset($_SESSION['cateNum']))
-    	echo $_SESSION['cateNum'];
+    	if(isset($_SESSION['cateNum'])){
+    		echo $_SESSION['cateNum'];
+    	}else{
+    		echo 0;
+    	}
     }
 }
 ?>

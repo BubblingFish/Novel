@@ -1,0 +1,97 @@
+ *{
+ 	 margin: 0;
+ 	 padding: 0;
+ }
+table {
+	 table-layout:fixed;
+} 
+td {
+	 overflow:hidden;
+	 word-break:keep-all;
+	 text-overflow:ellipsis
+}
+a{
+	color: blue;
+	cursor: pointer;
+} 
+.nav{
+ 	width:100%;
+   	height: 40px;
+   	background: #000;
+   	position: absolute;
+}
+.nav h3{
+	display: inline-block;
+	width: auto;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	margin: 0 10px;
+}
+.content{
+	position: absolute;
+	width: 100%;
+	top: 40px;
+	bottom: 0;
+}
+.leftBox{
+	width: 15%;
+	height: 100%;
+	background: #3d3d3d;
+	float: left;
+}
+.leftBox h4{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	margin: 20px 0;
+}
+.leftBox ul{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.leftBox li{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	float: left;
+	color: silver;
+	text-align: center;
+	line-height: 30px;
+	margin: 10px 0;
+}
+.leftBox li a{
+	color: white;
+	text-decoration: none;
+}
+.leftBox li:hover{
+	background: silver;
+	color: white;
+	cursor: pointer;
+}
+.rightBox{
+	width: 85%;
+	height: 100%;
+	float: left;
+}
+.rBox{
+	width: auto;
+	height: auto;
+	margin: 20px 30px;
+}
+#tableBox{
+	width: 100%;
+	height: 400px;
+	margin-top: 0px;
+	background: #CFCFCF;
+}
+#tableBox img{
+	width: 42px;
+	height: 60px;
+}
+

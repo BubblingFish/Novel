@@ -47,15 +47,6 @@ $(document).ready(function (){
 		    	async:true
 		    });
 		
-			$('.M-box').pagination({
-				pageCount:5,
-				jump:true,
-				coping:true,
-				homePage:'首',
-				endPage:'末',
-				prevContent:'<',
-				nextContent:'>'
-			});
 //		    		分页
 	$.ajax({//获取总行数
 		type:"post",

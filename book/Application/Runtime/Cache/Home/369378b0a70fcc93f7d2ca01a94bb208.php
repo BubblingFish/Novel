@@ -1,13 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); function show(){ $dir="../../userImg"; session_start(); if(isset($_SESSION['us'])){ if(isset($_SESSION['img'])&&$_SESSION['img']!=''){ echo "<img  src='".$dir."/".$_SESSION['img']."'/>
-        <span><p><a href='#'>".$_SESSION['us']."</a>
-        /<a href='http://localhost/Home/login/destroyUser'>注销</a></p></span>"; }else{ echo "<img  src='../../Public/images/user.jpg'/>
-        <span><p><a href='#'>".$_SESSION['us']."</a>
-        /<a href='http://localhost/Home/login/destroyUser'>注销</a>
-        </p></span>"; } } else{ echo "<img  src='../../Public/images/user.jpg'/>
-      <span><p>
-      <a href='http://localhost/Home/login/login'>登陆</a>/<a href='http://localhost/Home/register/register'>注册</a>
-      </p></span>"; } } ?>
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -24,11 +15,11 @@
 			<div class="nav">
 				<ul>
 					<li class="current"><a href="http://localhost/Home/index/index" target="_blank">首页</a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=玄幻">玄幻<small>movie</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=武侠">武侠<small>tv play</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=科幻">科幻<small>comic</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=言情">言情<small>variety</small></a></li>
-                    <li><a href="http://localhost/Home/searchresult/searchresult?cate=都市">都市<small>documentary</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=玄幻">玄幻<small>Fantasy</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=武侠">武侠<small>Martial arts</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=科幻">科幻<small>Future science</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=言情">言情<small>Romantic</small></a></li>
+                    <li><a href="http://localhost/Home/cateresult/searchresult?cate=都市">都市<small>City</small></a></li>
                     <li><a href="http://localhost/Home/recommend/recommend">推荐<small>+</small></a></li>
                </ul>
                <!--match IE9,IE10 or not ie-->
@@ -41,15 +32,14 @@
        <div class="searchBox">
        	<div class="searchLogo"><img src="../../Public/images/0.png" /></div>
        	<div class="searchBlank">
-       		<form class="searchForm" action="#" method="post">
-       			<input class="search" type="text" placeholder="请输入查询书籍"/>
+       		<form class="searchForm" action="http://localhost/Home/searchresult/searchresult" method="post">
+       			<input class="search" type="text" name="serBook" placeholder="请输入查询书籍"/>
        			<button class="searchBtn" type="submit"><img src="../../Public/images/search.png"/></button>
        		</form>
-       	</div>	
+       	</div>
        	<div class="Res_LogBox">
-       		<div class="Res_Log">
-       			<?php show();?>
- <!--      				<small>积分：1024</small>-->
+       		<div class="Res_Log" id="userL">
+
        		</div>
        	</div>
        </div>
