@@ -8,6 +8,7 @@
 	</head>
 	<body>
 		<button onclick="Play()">删除</button>
+		<a href="www.baidu.com">点击</a>
 		<script type="text/javascript">
 			function Play () {
 							     $.ajax({

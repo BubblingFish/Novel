@@ -125,7 +125,7 @@ class IndexController extends Controller
     	$Book=M('Book');
     	$resultBook=$Book->where("book_name='".$result[0]['book_name']."' And book_writer='".$result[0]['book_writer']."' And audi=1")->select();
     	if($resultBook){
-    		header("Refresh:0;url=http://localhost/Admin/repeat/repeat");
+    		header("Refresh:0;url=http://localhost/Admin/repeat/repeat?g_id=".$result[0]['book_id']);
     	}else{
     		$Book->audi=1;
     	    $result2=$Book->where("book_id=".$result[0]['book_id'])->save();
