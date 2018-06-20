@@ -1,0 +1,2613 @@
+[ 2018-06-20T21:42:36+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002248s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0591s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY book_score desc  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2018-06-20T21:42:37+08:00 ] ::1 /Home/index/reUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0253s ]
+SQL: select distinct user_id from likebook order by rand() limit 4 [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0155s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 86 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+
+[ 2018-06-20T21:42:37+08:00 ] ::1 /Home/index/newbooknum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2018-06-20T21:42:37+08:00 ] ::1 /Home/index/hotHover
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0179s ]
+SQL: SELECT `type` FROM `booktype` WHERE ( type_audi=1 ) LIMIT 8   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2018-06-20T21:42:37+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001948s ]
+
+[ 2018-06-20T21:42:37+08:00 ] ::1 /Home/index/newPrev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001667s ]
+
+[ 2018-06-20T21:42:38+08:00 ] ::1 /Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\GitRes\Novel\book\Application\Home\Controller\LoginController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001485s ]
+
+[ 2018-06-20T21:42:40+08:00 ] ::1 /Home/register/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '朱泽根'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2018-06-20T21:42:42+08:00 ] ::1 /Home/login/userLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = '朱泽根' AND `user_ps` = '1122'  [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\LoginController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2018-06-20T21:42:45+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY book_score desc  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2018-06-20T21:42:45+08:00 ] ::1 /Home/index/newbooknum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003800s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
+[ 2018-06-20T21:42:46+08:00 ] ::1 /Home/index/hotHover
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015585s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.1081s ]
+SQL: SELECT `type` FROM `booktype` WHERE ( type_audi=1 ) LIMIT 8   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2018-06-20T21:42:46+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004007s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003006s ]
+
+[ 2018-06-20T21:42:46+08:00 ] ::1 /Home/index/reUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0191s ]
+SQL: select distinct user_id from likebook order by rand() limit 4 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0138s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 86 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+
+[ 2018-06-20T21:42:46+08:00 ] ::1 /Home/index/newPrev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2018-06-20T21:42:48+08:00 ] ::1 /Home/recommend/recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+NOTIC: [8] Use of undefined constant recommend - assumed 'recommend' D:\GitRes\Novel\book\Application\Home\Controller\RecommendController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2018-06-20T21:42:48+08:00 ] ::1 /Home/recommend/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `booktype` WHERE ( type_audi=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002208s ]
+
+[ 2018-06-20T21:42:48+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002183s ]
+
+[ 2018-06-20T21:43:03+08:00 ] ::1 /Home/recommend/rem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0423s ]
+SQL: SELECT `book_id` FROM `book` WHERE ( book_name='斗罗大陆' And book_writer='天蚕土豆' And audi=1 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: s D:\GitRes\Novel\book\Application\Home\Controller\RecommendController.class.php 第 31 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\RecommendController.class.php 第 72 行.
+SQL: INSERT INTO `book` (`book_name`,`book_writer`,`book_cate`,`book_img`,`book_recom`,`update_time`,`abstract`,`book_url`,`audi`) VALUES ('斗罗大陆','天蚕土豆','玄幻','201806202143306.jpeg','朱泽根','2018-06-20 21:43:03','201806202143306.txt','201806202143306','0') [ RunTime:0.0678s ]
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.0196s ]
+SQL: INSERT INTO `recommend` (`book_name`,`user_name`,`book_writer`,`rec_score`,`rec_id`,`book_id`) VALUES ('斗罗大陆','朱泽根','天蚕土豆','15','0','83') [ RunTime:0.0678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002376s ]
+
+[ 2018-06-20T21:43:07+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY book_score desc  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2018-06-20T21:43:07+08:00 ] ::1 /Home/index/hotHover
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0146s ]
+SQL: SELECT `type` FROM `booktype` WHERE ( type_audi=1 ) LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2018-06-20T21:43:07+08:00 ] ::1 /Home/index/reUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0159s ]
+SQL: select distinct user_id from likebook order by rand() limit 4 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 86 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+
+[ 2018-06-20T21:43:07+08:00 ] ::1 /Home/index/newbooknum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001932s ]
+
+[ 2018-06-20T21:43:07+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2018-06-20T21:43:07+08:00 ] ::1 /Home/index/newPrev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008171s ]
+
+[ 2018-06-20T22:41:37+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2018-06-20T22:41:37+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=82 ) ORDER BY dis_time desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2018-06-20T22:41:37+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0931s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=82 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002865s ]
+
+[ 2018-06-20T22:41:38+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2018-06-20T22:41:38+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=82 ) ORDER BY dis_time desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001765s ]
+
+[ 2018-06-20T22:41:45+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY book_score desc  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002121s ]
+
+[ 2018-06-20T22:41:45+08:00 ] ::1 /Home/index/hotHover
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0134s ]
+SQL: SELECT `type` FROM `booktype` WHERE ( type_audi=1 ) LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2018-06-20T22:41:45+08:00 ] ::1 /Home/index/newbooknum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2018-06-20T22:41:45+08:00 ] ::1 /Home/index/reUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0164s ]
+SQL: select distinct user_id from likebook order by rand() limit 4 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0182s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 86 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+
+[ 2018-06-20T22:41:45+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001899s ]
+
+[ 2018-06-20T22:41:45+08:00 ] ::1 /Home/index/newPrev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001552s ]
+
+[ 2018-06-20T22:41:47+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001262s ]
+
+[ 2018-06-20T22:41:47+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002134s ]
+
+[ 2018-06-20T22:41:47+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003604s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=83 ) ORDER BY dis_time desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2018-06-20T22:41:47+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2018-06-20T22:41:47+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=83 ) ORDER BY dis_time desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001530s ]
+
+[ 2018-06-20T22:41:50+08:00 ] ::1 /Home/bookdetail/opo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1292s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `likebook` WHERE `book_id` = 83 AND `user_id` = 19  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0007s ]
+SQL: UPDATE `book` SET `book_id`='83',`book_score`='1' WHERE ( book_id=83 ) [ RunTime:0.0520s ]
+SQL: INSERT INTO `likebook` (`book_id`,`user_id`) VALUES ('83','19') [ RunTime:0.0445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002305s ]
+
+[ 2018-06-20T22:41:56+08:00 ] ::1 /Home/bookdetail/discuss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0284s ]
+SQL: INSERT INTO `discuss` (`book_id`,`user_id`,`dis_content`,`dis_time`) VALUES ('83','19','啊啊啊啊','2018-06-20 22:41:56') [ RunTime:0.0865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2018-06-20T22:41:59+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2018-06-20T22:41:59+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002048s ]
+
+[ 2018-06-20T22:41:59+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001909s ]
+
+[ 2018-06-20T22:41:59+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=83 ) ORDER BY dis_time desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002144s ]
+
+[ 2018-06-20T22:41:59+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=83 ) ORDER BY dis_time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0124s ]
+SQL: SELECT `user_name`,`user_img` FROM `user` WHERE ( user_id=19 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 107 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 109 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 110 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 107 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 109 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002111s ]
+
+[ 2018-06-20T22:43:03+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2018-06-20T22:43:04+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001989s ]
+
+[ 2018-06-20T22:43:04+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0305s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002105s ]
+
+[ 2018-06-20T22:43:04+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=83 ) ORDER BY dis_time desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002280s ]
+
+[ 2018-06-20T22:43:04+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=83 ) ORDER BY dis_time desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0102s ]
+SQL: SELECT `user_name`,`user_img` FROM `user` WHERE ( user_id=19 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 107 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 109 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 110 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 107 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 109 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002040s ]
+
+[ 2018-06-20T22:43:46+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2018-06-20T22:43:46+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2018-06-20T22:43:47+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=83 ) ORDER BY dis_time desc  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001838s ]
+
+[ 2018-06-20T22:43:47+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002901s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2018-06-20T22:43:47+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=83 ) ORDER BY dis_time desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0101s ]
+SQL: SELECT `user_name`,`user_img` FROM `user` WHERE ( user_id=19 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2018-06-20T22:49:25+08:00 ] ::1 /Home/personal/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant personal - assumed 'personal' D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2018-06-20T22:49:25+08:00 ] ::1 /Home/personal/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0157s ]
+SQL: SELECT `book_id` FROM `likebook` WHERE ( user_id=19 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0138s ]
+SQL: SELECT `book_id`,`book_name` FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2018-06-20T22:49:25+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2018-06-20T22:49:38+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2018-06-20T22:49:38+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0319s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+
+[ 2018-06-20T22:49:38+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002202s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0367s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=83 ) ORDER BY dis_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001950s ]
+
+[ 2018-06-20T22:49:38+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001943s ]
+
+[ 2018-06-20T22:49:39+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=83 ) ORDER BY dis_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2018-06-20T22:49:45+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002186s ]
+
+[ 2018-06-20T22:49:45+08:00 ] ::1 /Home/personal/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0129s ]
+SQL: SELECT `book_id` FROM `likebook` WHERE ( user_id=19 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0148s ]
+SQL: SELECT `book_id`,`book_name` FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001454s ]
+
+[ 2018-06-20T22:50:02+08:00 ] ::1 /Home/personal/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant personal - assumed 'personal' D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2018-06-20T22:50:02+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001978s ]
+
+[ 2018-06-20T22:50:02+08:00 ] ::1 /Home/personal/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0671s ]
+SQL: SELECT `book_id` FROM `likebook` WHERE ( user_id=19 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0170s ]
+SQL: SELECT `book_id`,`book_name` FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001946s ]
+
+[ 2018-06-20T22:50:13+08:00 ] ::1 /Home/personal/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant personal - assumed 'personal' D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2018-06-20T22:50:13+08:00 ] ::1 /Home/personal/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.1316s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0206s ]
+SQL: SELECT `book_id` FROM `likebook` WHERE ( user_id=19 )  [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0200s ]
+SQL: SELECT `book_id`,`book_name` FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0244s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002274s ]
+
+[ 2018-06-20T22:50:13+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002921s ]
+
+[ 2018-06-20T22:51:54+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2018-06-20T22:51:54+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002285s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2018-06-20T22:51:54+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003711s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=null )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2018-06-20T22:51:54+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=null ) ORDER BY dis_time desc  [ RunTime:0.0303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2018-06-20T22:51:55+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002436s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=null ) ORDER BY dis_time desc  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002021s ]
+
+[ 2018-06-20T22:56:14+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001925s ]
+
+[ 2018-06-20T22:56:15+08:00 ] ::1 /Home/personal/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0823s ]
+SQL: SELECT `book_id` FROM `likebook` WHERE ( user_id=19 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.1407s ]
+SQL: SELECT `book_id`,`book_name` FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002075s ]
+
+[ 2018-06-20T22:56:16+08:00 ] ::1 /Home/personal/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002464s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant personal - assumed 'personal' D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2018-06-20T22:56:16+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2018-06-20T22:56:16+08:00 ] ::1 /Home/personal/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0125s ]
+SQL: SELECT `book_id` FROM `likebook` WHERE ( user_id=19 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0148s ]
+SQL: SELECT `book_id`,`book_name` FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001530s ]
+
+[ 2018-06-20T22:56:17+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2018-06-20T22:56:17+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002213s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2018-06-20T22:56:17+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=null )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2018-06-20T22:56:17+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=null ) ORDER BY dis_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2018-06-20T22:56:17+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=null ) ORDER BY dis_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2018-06-20T22:56:21+08:00 ] ::1 /Home/personal/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002351s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0151s ]
+SQL: SELECT `book_id` FROM `likebook` WHERE ( user_id=19 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0136s ]
+SQL: SELECT `book_id`,`book_name` FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2018-06-20T22:56:21+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001477s ]
+
+[ 2018-06-20T22:56:23+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2018-06-20T22:56:23+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=null )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004763s ]
+
+[ 2018-06-20T22:56:23+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002466s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2018-06-20T22:56:23+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=null ) ORDER BY dis_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2018-06-20T22:56:23+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=null ) ORDER BY dis_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002853s ]
+
+[ 2018-06-20T22:56:45+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001774s ]
+
+[ 2018-06-20T22:56:45+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=null )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002440s ]
+
+[ 2018-06-20T22:56:46+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=null ) ORDER BY dis_time desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2018-06-20T22:56:46+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001598s ]
+
+[ 2018-06-20T22:56:46+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=null ) ORDER BY dis_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2018-06-20T22:57:56+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009533s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001802s ]
+
+[ 2018-06-20T22:57:57+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005558s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002459s ]
+
+[ 2018-06-20T22:57:57+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005368s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=null )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002277s ]
+
+[ 2018-06-20T22:57:57+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003511s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=null ) ORDER BY dis_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2018-06-20T22:57:57+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003143s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=null ) ORDER BY dis_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002020s ]
+
+[ 2018-06-20T22:58:28+08:00 ] ::1 /Home/personal/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant personal - assumed 'personal' D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002028s ]
+
+[ 2018-06-20T22:58:28+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006185s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2018-06-20T22:58:28+08:00 ] ::1 /Home/personal/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002741s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0153s ]
+SQL: SELECT `book_id` FROM `likebook` WHERE ( user_id=19 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0129s ]
+SQL: SELECT `book_id`,`book_name` FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2018-06-20T23:00:40+08:00 ] ::1 /Home/personal/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant personal - assumed 'personal' D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2018-06-20T23:00:40+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002054s ]
+
+[ 2018-06-20T23:00:40+08:00 ] ::1 /Home/personal/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0131s ]
+SQL: SELECT `book_id` FROM `likebook` WHERE ( user_id=19 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0505s ]
+SQL: SELECT `book_id`,`book_name` FROM `book` WHERE ( book_id=83 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001921s ]
+
+[ 2018-06-20T23:10:12+08:00 ] ::1 /Home/recommend/recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+NOTIC: [8] Use of undefined constant recommend - assumed 'recommend' D:\GitRes\Novel\book\Application\Home\Controller\RecommendController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2018-06-20T23:10:12+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003050s ]
+
+[ 2018-06-20T23:10:12+08:00 ] ::1 /Home/recommend/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `booktype` WHERE ( type_audi=1 )  [ RunTime:0.0197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002372s ]
+
+[ 2018-06-20T23:12:06+08:00 ] ::1 /Home/recommend/rem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.1244s ]
+SQL: SELECT `book_id` FROM `book` WHERE ( book_name='贩罪' And book_writer='三天两觉' And audi=1 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: s D:\GitRes\Novel\book\Application\Home\Controller\RecommendController.class.php 第 31 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\RecommendController.class.php 第 72 行.
+SQL: INSERT INTO `book` (`book_name`,`book_writer`,`book_cate`,`book_img`,`book_recom`,`update_time`,`abstract`,`book_url`,`audi`) VALUES ('贩罪','三天两觉','武侠','201806202312322.jpeg','朱泽根','2018-06-20 23:12:05','201806202312322.txt','201806202312322','0') [ RunTime:0.0757s ]
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.0209s ]
+SQL: INSERT INTO `recommend` (`book_name`,`user_name`,`book_writer`,`rec_score`,`rec_id`,`book_id`) VALUES ('贩罪','朱泽根','三天两觉','15','0','84') [ RunTime:0.0398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002682s ]
+
+[ 2018-06-20T23:12:09+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY book_score desc  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2018-06-20T23:12:09+08:00 ] ::1 /Home/index/reUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0213s ]
+SQL: select distinct user_id from likebook order by rand() limit 4 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0246s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 86 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+
+[ 2018-06-20T23:12:09+08:00 ] ::1 /Home/index/newbooknum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2018-06-20T23:12:09+08:00 ] ::1 /Home/index/hotHover
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0220s ]
+SQL: SELECT `type` FROM `booktype` WHERE ( type_audi=1 ) LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2018-06-20T23:12:09+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004421s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002312s ]
+
+[ 2018-06-20T23:12:09+08:00 ] ::1 /Home/index/newPrev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2018-06-20T23:12:13+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY book_score desc  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2018-06-20T23:12:13+08:00 ] ::1 /Home/index/reUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0263s ]
+SQL: select distinct user_id from likebook order by rand() limit 4 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0233s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 86 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+
+[ 2018-06-20T23:12:13+08:00 ] ::1 /Home/index/newbooknum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002086s ]
+
+[ 2018-06-20T23:12:13+08:00 ] ::1 /Home/index/hotHover
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001923s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0245s ]
+SQL: SELECT `type` FROM `booktype` WHERE ( type_audi=1 ) LIMIT 8   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2018-06-20T23:12:14+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002326s ]
+
+[ 2018-06-20T23:12:14+08:00 ] ::1 /Home/index/newPrev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001477s ]
+
+[ 2018-06-20T23:12:23+08:00 ] ::1 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY book_score desc  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2018-06-20T23:12:24+08:00 ] ::1 /Home/index/reUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0346s ]
+SQL: select distinct user_id from likebook order by rand() limit 4 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0259s ]
+NOTIC: [8] Undefined offset: 0 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 86 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `user_id`,`user_name` FROM `user` WHERE ( user_id= ) 
+
+[ 2018-06-20T23:12:24+08:00 ] ::1 /Home/index/newbooknum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001801s ]
+
+[ 2018-06-20T23:12:24+08:00 ] ::1 /Home/index/hotHover
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004590s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `booktype` [ RunTime:0.0193s ]
+SQL: SELECT `type` FROM `booktype` WHERE ( type_audi=1 ) LIMIT 8   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2018-06-20T23:12:24+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003447s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002302s ]
+
+[ 2018-06-20T23:12:24+08:00 ] ::1 /Home/index/newPrev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002388s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `book` WHERE ( audi=1 ) ORDER BY update_time desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 1 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 3 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 4 D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2018-06-20T23:12:26+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2018-06-20T23:12:27+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002281s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002588s ]
+
+[ 2018-06-20T23:12:27+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=84 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002273s ]
+
+[ 2018-06-20T23:12:27+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=84 ) ORDER BY dis_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002204s ]
+
+[ 2018-06-20T23:12:27+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=84 ) ORDER BY dis_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002561s ]
+
+[ 2018-06-20T23:12:29+08:00 ] ::1 /Home/bookdetail/opo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `likebook` WHERE `book_id` = 84 AND `user_id` = 19  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=84 )  [ RunTime:0.0005s ]
+SQL: UPDATE `book` SET `book_id`='84',`book_score`='1' WHERE ( book_id=84 ) [ RunTime:0.0711s ]
+SQL: INSERT INTO `likebook` (`book_id`,`user_id`) VALUES ('84','19') [ RunTime:0.0574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2018-06-20T23:12:37+08:00 ] ::1 /Home/bookdetail/discuss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0382s ]
+SQL: INSERT INTO `discuss` (`book_id`,`user_id`,`dis_content`,`dis_time`) VALUES ('84','19','aasd','2018-06-20 23:12:37') [ RunTime:0.0915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002267s ]
+
+[ 2018-06-20T23:12:40+08:00 ] ::1 /Home/bookdetail/bookdetail?B_id=84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant bookdetail - assumed 'bookdetail' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2018-06-20T23:12:41+08:00 ] ::1 /Home/bookdetail/dis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.0299s ]
+SQL: SELECT * FROM `book` WHERE ( book_id=84 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2018-06-20T23:12:41+08:00 ] ::1 /Home/bookdetail/showNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=84 ) ORDER BY dis_time desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002256s ]
+
+[ 2018-06-20T23:12:41+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2018-06-20T23:12:41+08:00 ] ::1 /Home/bookdetail/dis_firstshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+NOTIC: [8] Use of undefined constant session_start - assumed 'session_start' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant Discuss - assumed 'Discuss' D:\GitRes\Novel\book\Application\Home\Controller\BookdetailController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `discuss` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `discuss` WHERE ( book_id=84 ) ORDER BY dis_time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT `user_name`,`user_img` FROM `user` WHERE ( user_id=19 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2018-06-20T23:12:56+08:00 ] ::1 /Home/personal/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant personal - assumed 'personal' D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2018-06-20T23:12:56+08:00 ] ::1 /Home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2018-06-20T23:12:56+08:00 ] ::1 /Home/personal/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [2048] Declaration of Home\Controller\PersonalController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 39 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\GitRes\Novel\book\Application\Home\Controller\PersonalController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='朱泽根' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `likebook` [ RunTime:0.0134s ]
+SQL: SELECT `book_id` FROM `likebook` WHERE ( user_id=19 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+

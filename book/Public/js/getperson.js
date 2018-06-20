@@ -13,7 +13,7 @@ $(document).ready(function (){
 		    			
 		    			for (var i=0;i<p['like_book'].length;i++) {
 		    				str+="<small><a href='http://localhost/Home/bookdetail/bookdetail?B_id="+p['like_book'][i]['book_id']+"'>"+p['like_book'][i]['book_name']+"</a></small>";
-		    		   }
+		    		  }
 		    			var s=$("<div class='perImg'><img src='../../userImg/"+p['user_img']+"'/></div><p class='usBox'>"+p['user_name']+"</p><div><ul><li><small>个人积分：</small><small>"+p['user_score']+"</small></li><li><small>个人书单：</small>"+str+"</li></ul></div>").appendTo($("#pBox"));
 		    		    console.log(p['like_book']);	
 		    		}

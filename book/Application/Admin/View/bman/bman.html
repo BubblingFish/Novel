@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="../../Public/adcss/bootstrap.min.css" />  
 		<link rel="stylesheet" type="text/css" href="../../Public/styles/pagination.css" />
         <script src="../../Public/js/jquery1.9.1.min.js"></script> 
-        <script src="../../Public/adjs/updatebook.js"></script> 
+        <script type="text/javascript" src="../../Public/adjs/bman.js"></script>
         <script type="text/javascript" src="../../Public/js/jquery.pagination.js"></script>
 	</head>
 	<body>
@@ -24,22 +24,28 @@
 			</div>
 			<div class="rightBox">
 				<div class="rBox" id="container">
-					<h3>书籍修改</h3>
+					<h3>书籍管理</h3>
+					<form action="http://localhost/Admin/bman/bman" method="post">
+						<input type="text" name="serB" placeholder="请输入书籍名称"/>
+						<input type="submit" value="查询" id="OP"/>
+					</form>
 					<table  class="table table-striped table-bordered">
 						<thead>
 							<tr>
-								<th>书籍ID</th>
-								<th>类别修改</th>
-								<th>简介修改</th>
-								<th>链接修改</th>
-								<th>原链接</th>
-								<th>修改链接</th>
+								<th>书籍封面</th>
+								<th>书籍名称</th>
+								<th>书籍类别</th>
+								<th>书籍作者</th>
+								<th>推荐用户</th>
+								<th>应得积分</th>
+								<th>书籍链接</th>
+								<th>更新时间</th>
 								<th>操作</th>
 							</tr>
 						</thead>					
 					</table>
 				<table id="tableBox" class="table table-striped table-bordered">
-						<tbody id="upBox">								
+						<tbody id="bBox">								
 						</tbody>						
 					</table>
 					<div class="M-box"></div>
@@ -48,4 +54,3 @@
 		</div>
 	</body>
 </html>
-

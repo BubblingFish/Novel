@@ -22,24 +22,29 @@ $(document).ready(function (){
 		    	type:"post",
 		    	url: "http://localhost/Home/bookdetail/dis",
 		    	success:function(response){
-		    		var p=response.split('@');;
-		    		htmlobj=$.ajax({url:"../../bookAbstract/"+p[5],async:false});
-		    		htmlobj2=$.ajax({url:"../../bookUrl/"+p[6],async:false});
-		    		var op=$("<div class='book_detail_img'><img src='../../bookImg/book"+p[0]+"'/></div><span id='s_content'><b>"+p[1]+"</b><a>作者："+p[2]+"&nbsp;&nbsp;&nbsp;来自于："+p[3]+"</a><h6>好评数："+p[4]+"</h6></span><h4>内容简介</h4><p>"+htmlobj.responseText+"</p></div>").appendTo($("#b_detail"));
-		    		var btn=$("<button id='btn_zan'>点赞</button>");
-		    		var blank=$("<div class='discuss_club'><form action='http://localhost/Home/bookdetail/discuss' method='post'><input class='dis_input1' type='text' name='discuss' placeholder='请输入评论（限30字以内）'/><input class='dis_input2' type='submit' value='发表'/></form></div>");
-		    		var skip=$("<a id='skip' href='"+htmlobj2.responseText+"'>点击跳转</a>");
-		    		if (p[7]=='1') {
-		    			btn.disabled=true;
-		    			btn.css("background-color","green");
-		    			btn.attr("onclick","Play()");
-		    			$("#dis_club").append(blank);
-		    		}else{
-		    			btn.css("display","none");
-		    			blank.css("display","none");
+		    		if (response==0) {
+		    			console.log(1111);
+		    			$("#b_detail").html("此书籍已下架");
+		    		} else{
+			    		var p=response.split('@');;
+		    		    htmlobj=$.ajax({url:"../../bookAbstract/"+p[5],async:false});
+		    		    htmlobj2=$.ajax({url:"../../bookUrl/"+p[6],async:false});
+		    		    var op=$("<div class='book_detail_img'><img src='../../bookImg/book"+p[0]+"'/></div><span id='s_content'><b>"+p[1]+"</b><a>作者："+p[2]+"&nbsp;&nbsp;&nbsp;来自于："+p[3]+"</a><h6>好评数："+p[4]+"</h6></span><h4>内容简介</h4><p>"+htmlobj.responseText+"</p></div>").appendTo($("#b_detail"));
+		    		    var btn=$("<button id='btn_zan'>点赞</button>");
+		    		    var blank=$("<div class='discuss_club'><form action='http://localhost/Home/bookdetail/discuss' method='post'><input class='dis_input1' type='text' name='discuss' placeholder='请输入评论（限30字以内）'/><input class='dis_input2' type='submit' value='发表'/></form></div>");
+		    		    var skip=$("<a id='skip' href='"+htmlobj2.responseText+"'>点击跳转</a>");
+		    		    if (p[7]=='1') {
+		    		    	btn.disabled=true;
+		    			    btn.css("background-color","green");
+		    			    btn.attr("onclick","Play()");
+		    			    $("#dis_club").append(blank);
+		    		    }else{
+		    			    btn.css("display","none");
+		    			    blank.css("display","none");
+		    		    }
+		    		    $("#s_content").append(btn);
+		    		    $("#s_content").append(skip);	    			
 		    		}
-		    		$("#s_content").append(btn);
-		    		$("#s_content").append(skip);
 		    	},
 		    	error:function(){
 		    		console.log("222");
@@ -52,7 +57,7 @@ $(document).ready(function (){
 		type:"post",
 		url: "http://localhost/Home/bookdetail/showNum",
 		success:function(response){
-			var count=3;
+			var count=1;
 			var pagecount=Math.ceil(response/count);
 //			获得初始页面
 			$.ajax({

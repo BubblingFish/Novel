@@ -26,6 +26,8 @@ class BookdetailController extends Controller
     		}else{
     			echo $str."@0";   			
     		}
+    	}else{
+    		echo 0;
     	}
     }
 //  显示评论信息

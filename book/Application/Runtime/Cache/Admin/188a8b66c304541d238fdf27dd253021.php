@@ -19,6 +19,7 @@
 					<li><span><a href="http://localhost/Admin/index/index">书籍上传管理</a></span></li>
 					<li><span><a href="http://localhost/Admin/serbook/serbook">书籍修改管理</a></span></li>
 					<li><span><a href="http://localhost/Admin/seruser/seruser">类别上传管理</a></span></li>
+					<li><span><a href="http://localhost/Admin/bman/bman">书籍资源管理</a></span></li>
 				</ul>
 			</div>
 			<div class="rightBox">

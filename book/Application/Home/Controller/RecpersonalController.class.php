@@ -25,8 +25,10 @@ class RecpersonalController extends Controller
     			$Book=M('book');
     			for($i=0;$i<count($resultLike);$i++){
     				$resultBook=$Book->where('book_id='.$resultLike[$i]['book_id'])->field('book_id,book_name')->select();
-    				$data['like_book'][$i]['book_id']=$resultBook[0]['book_id'];
-    				$data['like_book'][$i]['book_name']=$resultBook[0]['book_name'];
+    				if($resultBook){
+    					$data['like_book'][$i]['book_id']=$resultBook[0]['book_id'];
+    				    $data['like_book'][$i]['book_name']=$resultBook[0]['book_name'];    					
+    				}
     			}
     			echo json_encode($data);
     		}else{
