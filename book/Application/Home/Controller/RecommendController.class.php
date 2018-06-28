@@ -10,7 +10,9 @@ class RecommendController extends Controller
         $this->display(recommend);
     }
     public function rem(){
-    	$userScore=0;
+    	session_start();
+    	if(isset($_SESSION['us'])){
+    $userScore=0;
     	if($_POST['bookName']==''||$_POST['bookWriter']==''){
     		header("Refresh:3;url=http://localhost/Home/recommend/recommend");
     		echo "请填写必要信息";
@@ -113,7 +115,12 @@ class RecommendController extends Controller
     		        }
     		    }		
     	    }
-    	}	  	
+    	}	  			
+    	}else{
+    		header("Refresh:3;url=http://localhost/Home/login/login");
+    		echo("未登陆，请登陆");
+    	}
+    	
     }
    
    public function type(){

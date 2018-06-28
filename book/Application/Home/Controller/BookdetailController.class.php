@@ -20,7 +20,7 @@ class BookdetailController extends Controller
     	$bookD=M('Book');
     	$result=$bookD->where("book_id=".$_SESSION['book_id'])->select();
     	if($result){
-    		$str=$result[0]['book_img']."@".$result[0]['book_name']."@".$result[0]['book_writer']."@".$result[0]['book_recom']."@".$result[0]['book_score']."@".$result[0]['abstract']."@".$result[0]['book_url'];
+    		$str=$result[0]['book_img']."@".$result[0]['book_name']."@".$result[0]['book_writer']."@".$result[0]['book_recom']."@".$result[0]['book_score']."@".$result[0]['abstract']."@".$result[0]['book_url']."@".$result[0]['book_id']."@".$result[0]['book_cate'];
     		if($_SESSION['us']){
     			echo $str."@1";	
     		}else{
@@ -116,6 +116,28 @@ class BookdetailController extends Controller
     		echo 0;
     	}
     }    
+    public function dis_allshow(){
+    	session_start;
+    	$Discuss=M(Discuss);
+    	$result=$Discuss->where('book_id='.$_SESSION['book_id'])->order('dis_time desc')->select();
+    	for($i=0;$i<count($result);$i++){
+    		$User=M('User');
+    		$result2=$User->where("user_id=".$result[$i]['user_id'])->field('user_name,user_img')->select();
+    		$result[$i]['user_name']=$result2[0]['user_name'];
+    		$result[$i]['user_img']=$result2[0]['user_img'];
+    	}  
+    	if($result){
+    		for($i=0;$i<count($result);$i++){
+    			$data[$i]['user_name']=$result[$i]['user_name'];
+    			$data[$i]['user_img']=$result[$i]['user_img'];
+    			$data[$i]['dis_content']=$result[$i]['dis_content'];
+    			$data[$i]['dis_time']=$result[$i]['dis_time'];
+    		}
+    		echo json_encode($data);
+    	}else{
+    		echo 0;
+    	}    	
+    }
 //  评论显示
     public function dis_show(){
     	$begin=($_POST['page']-1)*$_POST['rows'];

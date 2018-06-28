@@ -1,5 +1,5 @@
 $(document).ready(function (){
-	var count=1;//设置结果页每页显示条数
+	var count=4;//设置结果页每页显示条数
 	$.ajax({
 		type:"post",
 		url: "http://localhost/Admin/repeat/repeatNo",

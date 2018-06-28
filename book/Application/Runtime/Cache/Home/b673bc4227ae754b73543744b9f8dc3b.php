@@ -62,7 +62,7 @@
 	   		<!--侧边栏-->
 	   		<div class="bookAbout">
 	   			<div class="hotUser">
-	   				<span class="hs"><p>置顶推荐榜</p></span>
+	   				<span class="hs"><p>用户书单榜</p></span>
 	   				<ul id='ul_rec'>
                         <!--推荐用户-->
 	   				</ul>

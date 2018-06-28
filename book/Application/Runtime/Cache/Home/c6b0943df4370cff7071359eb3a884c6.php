@@ -53,14 +53,15 @@
        	<div class="book_detail" id="b_detail">
        		<!--书籍详情-->
        	</div>
-        
-        <h4 class='t4'>书籍评论</h4>
+       	<div class="abstractBox" id="abs">
+       		<h4 class='t4'>内容简介</h4>
+       	</div>
         <div class="user_speak" id="dis_user">
+        	<h4 class='t4'>书籍评论</h4>
        		<!--用户评论-->
        	</div>
        	<div class="M-box"></div>
        </div>
        
 	</body>
-</script>
 </html>

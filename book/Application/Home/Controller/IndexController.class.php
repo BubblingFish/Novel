@@ -75,7 +75,7 @@ class IndexController extends Controller
 //  随机推荐用户
     public function reUser(){
 //  	获取推荐用户id
-    	$UserNum=4;//推荐用户数量
+    	$UserNum=2;//推荐用户数量
     	$Likebook=M('Likebook');
     	$sql="select distinct user_id from likebook order by rand() limit ".$UserNum;
         $resultUser=$Likebook->query($sql);

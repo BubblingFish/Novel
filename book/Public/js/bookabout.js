@@ -22,7 +22,7 @@ $(document).ready(function (){
 		    	success:function(response){
 		    		var hothover=JSON.parse(response);
 		    		for (var i=0;i<hothover.length;i++) {
-		    			$("<li><span><a href='http://localhost/Home/searchresult/searchresult?cate="+hothover[i]['type']+"'>"+hothover[i]['type']+"</a></span></li>").appendTo('#ul_hot');
+		    			$("<li><span><a href='http://localhost/Home/cateresult/searchresult?cate="+hothover[i]['type']+"'>"+hothover[i]['type']+"</a></span></li>").appendTo('#ul_hot');
 		    		}
 		    	},
 		    	error:function(){

@@ -29,11 +29,13 @@ $(document).ready(function (){
 			    		var p=response.split('@');;
 		    		    htmlobj=$.ajax({url:"../../bookAbstract/"+p[5],async:false});
 		    		    htmlobj2=$.ajax({url:"../../bookUrl/"+p[6],async:false});
-		    		    var op=$("<div class='book_detail_img'><img src='../../bookImg/book"+p[0]+"'/></div><span id='s_content'><b>"+p[1]+"</b><a>作者："+p[2]+"&nbsp;&nbsp;&nbsp;来自于："+p[3]+"</a><h6>好评数："+p[4]+"</h6></span><h4>内容简介</h4><p>"+htmlobj.responseText+"</p></div>").appendTo($("#b_detail"));
+		    		    var op=$("<div class='book_detail_img'><img src='../../bookImg/book"+p[0]+"'/></div><span id='s_content'><b>"+p[1]+"</b><a>作者："+p[2]+"&nbsp;&nbsp;&nbsp;来自于："+p[3]+"</a><h6>"+p[8]+"</h6><h6>好评数："+p[4]+"</h6></div>").appendTo($("#b_detail"));
 		    		    var btn=$("<button id='btn_zan'>点赞</button>");
 		    		    var blank=$("<div class='discuss_club'><form action='http://localhost/Home/bookdetail/discuss' method='post'><input class='dis_input1' type='text' name='discuss' placeholder='请输入评论（限30字以内）'/><input class='dis_input2' type='submit' value='发表'/></form></div>");
 		    		    var skip=$("<a id='skip' href='"+htmlobj2.responseText+"'>点击跳转</a>");
-		    		    if (p[7]=='1') {
+		    		    var book=$("<a id='skip' href='http://localhost/Home/perfect/perfect?B_id="+p[7]+"'>点击修改</a>");
+		    		    var abstr=$("<p>"+htmlobj.responseText+"</p>");
+		    		    if (p[9]=='1') {
 		    		    	btn.disabled=true;
 		    			    btn.css("background-color","green");
 		    			    btn.attr("onclick","Play()");
@@ -43,7 +45,9 @@ $(document).ready(function (){
 		    			    blank.css("display","none");
 		    		    }
 		    		    $("#s_content").append(btn);
-		    		    $("#s_content").append(skip);	    			
+		    		    $("#s_content").append(skip);
+		    		    $("#s_content").append(book);
+		    		    $("#abs").append(abstr);
 		    		}
 		    	},
 		    	error:function(){
@@ -57,7 +61,9 @@ $(document).ready(function (){
 		type:"post",
 		url: "http://localhost/Home/bookdetail/showNum",
 		success:function(response){
-			var count=1;
+			if(response!=0){
+			var count=5;
+			if(response>count){
 			var pagecount=Math.ceil(response/count);
 //			获得初始页面
 			$.ajax({
@@ -115,6 +121,29 @@ $(document).ready(function (){
 		           })				
 				}
 			});
+			}else{
+			$.ajax({
+				type:"post",
+				url: "http://localhost/Home/bookdetail/dis_allshow",
+				success:function(response){
+					$("#dis_user").empty();
+					var k=JSON.parse(response);				
+					if (response==0) {
+						$("<span>暂无评论</span>").appendTo($("#dis_user"));
+					} else{
+						var k=JSON.parse(response);
+						for (var i=0;i<k.length;i++) {
+							var a=$("<span><div class='pUser'><img src='../../userImg/"+k[i]['user_img']+"'/><p>"+k[i]['user_name']+"</p></div><p class='pContent'>"+k[i]['dis_content']+"</p><b>"+k[i]['dis_time']+"</b></span>").appendTo($("#dis_user"));
+		    			}
+		    		}
+				},
+		    	error:function(){
+		    		console.log("222");
+		    	},
+		    	async:true
+		    })
+			}
+			}
 		},
 		error:function(){
 			console.log("222");

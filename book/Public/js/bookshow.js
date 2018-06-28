@@ -70,7 +70,7 @@ $(document).ready(function (){
                 htmlobj=$.ajax({url:"../../bookAbstract/"+abstract,async:false});
                 var str='';
                 if (htmlobj.responseText.length>100) {
-                	str=htmlobj.responseText.slice(0,101)+"<a id='copy' href='"+book_id+"'>...更多</a>";
+                	str=htmlobj.responseText.slice(0,101)+"<a id='copy' href='http://localhost/Home/bookdetail/bookdetail?B_id="+book_id+"'>...更多</a>";
                 }else{
                 	str=htmlobj.responseText;
                 }

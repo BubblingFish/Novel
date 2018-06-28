@@ -17,14 +17,14 @@ class TypesupplyController extends Controller
     		$data['type_audi']=0;
     		$result=$Booktype->add($data);	
     		if($result){
-    			var_dump("您的要求会尽快获得处理，期待我们共同成长");
+    			echo "您的要求会尽快获得处理，期待我们共同成长";
     			header("Refresh:3;url=http://localhost/Home/index/index");
     		}else{
-    			var_dump("您的要求提交失败，请在此尝试！");
+    			echo "您的要求提交失败，请在此尝试！";
     			header("Refresh:3;url=http://localhost/Home/typesupply/typesupply");    			
     		}
     	}else{
-    		var_dump("没有接收到您的要求，返回中......");
+    		echo "没有接收到您的要求，返回中......";
     		header("Refresh:3;url=http://localhost/Home/typesupply/typesupply");
     	}
     }    

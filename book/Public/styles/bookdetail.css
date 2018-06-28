@@ -28,6 +28,7 @@ input{
 	display: inline-block;
 	width: 350px;
 	height: 50px;
+	margin-top: 100px;
 	float: left;
 	line-height: 50px;
 	border-bottom: 3px solid black;
@@ -56,6 +57,7 @@ input{
 .book_detail h6{
 	display: inline-block;
 	width: 100%;
+	float: left;
 	padding-left: 10px;
 	margin-top: 5px;
 }
@@ -112,11 +114,8 @@ input{
 }
 .t4{
 	display: inline-block;
-	width: 350px;
 	height: 50px;
-	float: left;
 	line-height: 50px;
-	margin-left: 100px;
 	border-bottom: 3px solid black;
 }
 .user_speak b{
@@ -178,6 +177,11 @@ input{
 	margin-left:20px ;
 	margin-top: 164px;
 }
+.abstractBox{
+	float: left;
+	height: auto;
+	padding:30px 100px;
+}
 @media only screen and (min-width: 1200px) {
 	.book_detail_box{
 		width: 1200px;
@@ -190,6 +194,13 @@ input{
 		width: 1005px;
 		padding-left: 100px;
 	}
+	.abstractBox{
+		width: 1005px;
+        padding-left: 100px;
+     }
+     .t4{
+     	width: 350px;
+     }
 	.discuss_club{
 		width: 1005px;
 		padding-left: 100px;
@@ -215,18 +226,25 @@ input{
 		width: 99%;
 		padding-left: 10px;
 	}
+	.t4{
+     	width: 350px;
+    }
+	.abstractBox{
+		width: 99%;
+		padding-left: 10px;
+    }
 	.discuss_club{
 		width: 99%;
 		padding-left: 10px;
     }
 	.book_detail_img{
 		width: 100px;
-		height: 143px;
+		height: 153px;
 	}
 	.book_detail span{
 	    width: 75%;
 	    min-width: 300px;
-	    height: 143px;
+	    height: 153px;
 	}	
 }
 @media only screen and (max-width: 430px) {
@@ -234,27 +252,29 @@ input{
 		width: 430px;
 	}
 	.book_detail{
-		width: 90%;
-		min-width: 400px;
-		padding-left: 15px;
+		width: 420px;
 	}
 	.user_speak{
-		width: 90%;
-		min-width: 400px;
-		padding-left: 15px;
+		width: 420px;
+		padding-left: 0px;
 	}
+	.abstractBox{
+		width: 420px;
+		padding-left: 0px;
+	}
+	.t4{
+     	width: 200px;
+    }	
 	.discuss_club{
-		width: 90%;
-		min-width: 400px;
-		padding-left: 15px;
+		width: 420px;
     }
 	.book_detail_img{
-		width: 70px;
-		height: 100px;
+		width: 105px;
+		height: 150px;
 	}
 	.book_detail span{
-	   width: 76%;
-	   height: 100px;
+	   width: 300px;
+	   height: 150px;
 	}
 	.book_detail b{
 		padding-top: 5px;

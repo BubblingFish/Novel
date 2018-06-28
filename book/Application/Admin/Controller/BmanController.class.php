@@ -99,7 +99,6 @@ class BmanController extends Controller
     	}     	
     } 
     public function deletebman(){
-    	echo $_GET['remove_id'];
     	$Book=M('Book');
     	$resultDel=$Book->where('book_id='.$_GET['remove_id'])->select();
     	if($resultDel){
@@ -111,16 +110,14 @@ class BmanController extends Controller
     		unlink($file3);	    		
     	}
     	$result=$Book->where('book_id='.$_GET['remove_id'])->delete();
+    	$dis=M('Discuss');
+    	$resultDis=$dis->where('book_id='.$_GET['remove_id'])->delete();
+    	if($resultDis){
+    		$Like=M('Likebook');
+    		$resultLike=$Like->where('book_id='.$_GET['remove_id'])->delete();
+    	}
     	if($result){
-    		$dis=M('Discuss');
-    		$resultDis=$dis->where('book_id='.$_GET['remove_id'])->delete();
-    		if($resultDis){
-    			$Like=M('Likebook');
-    		    $resultLike=$Like->where('book_id='.$_GET['remove_id'])->delete();
-    		    if($resultLike){
-    		    	header("Refresh:0;url=http://localhost/Admin/bman/bman");
-    		    }
-    		}
+    		header("Refresh:0;url=http://localhost/Admin/bman/bman");
     	}
     }
 }
