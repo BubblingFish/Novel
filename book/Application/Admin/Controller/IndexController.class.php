@@ -7,7 +7,7 @@ class IndexController extends Controller
 {
     public function index()
     {
-    	$this->display(index);
+    	$this->display(aaa);
     }
     public function tr(){
     	$file = "bookUrl/201806131758330";

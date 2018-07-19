@@ -1,0 +1,18 @@
+[ 2018-07-09T11:20:29+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-07-09T13:45:09+08:00 ] 127.0.0.1 /PV?peerid=0&uri=http://thunderqtypv.union.xunlei.com&src=www.dytt8.net
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+ERR: 无法加载模块:PV
+
+[ 2018-07-09T13:47:46+08:00 ] 127.0.0.1 /PV?peerid=0&uri=http://thunderqtypv.union.xunlei.com&src=www.dytt8.net
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+ERR: 无法加载模块:PV
+
